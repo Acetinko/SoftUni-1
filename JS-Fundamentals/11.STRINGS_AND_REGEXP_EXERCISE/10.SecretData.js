@@ -1,23 +1,30 @@
 function secretData(arr) {
-    let pattern = /([*][A-Z][A-Za-z]*(?=\t| |$))|([+][0-9\-]{10}(?=\t| |$))|(![a-zA-Z0-9]+(?=\t| |$))|(_[a-zA-Z0-9]+(?=\t| |$))/g;
 
     for (let str of arr) {
-        let match = str.match(pattern);
-        if (match !== null) {
-            for (let m of match) {
-                if (m.trim().length === 0) {
-                    continue;
-                }
-                str = str.replace(m.trim(), "|".repeat(m.trim().length));
-            }
-        }
+        let pattern = /([*][A-Z][A-Za-z]*(?=\t|\s|$))/g;
+        str = str.replace(pattern, replacer);
+
+        pattern = /([+][0-9\-]{10}(?=\t| |$))/g;
+        str = str.replace(pattern, replacer);
+
+        pattern = /(![a-zA-Z0-9]+(?=\t| |$))/g;
+        str = str.replace(pattern, replacer);
+
+        pattern = /(_[a-zA-Z0-9]+(?=\t| |$))/g;
+        str = str.replace(pattern, replacer);
 
         console.log(str);
+    }
+    
+    function replacer(m, gr1, gr2) {
+        gr1 = gr1.replace(/.*/g,
+                x => "|".repeat(x.trim().length));
+        return gr1;
     }
 }
 
 secretData([
-    'Agent * *Ivankov **Ivankov was in the room when it all happened.',
+    'Agent *Ivankov was in the room when it all happened. *Ivankov was.',
     'WEwe 5*Ivankov.',
     'The person in the room was heavily armed.',
     'Agent *Ivankov had to act quick in order.',
