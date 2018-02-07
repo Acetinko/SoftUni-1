@@ -34,15 +34,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03.xmlMessenger.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03.xmlMessenger.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03.xmlMessenger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding>
-                <marker date="1517953471240" expanded="true" signature="1101:1161" ph="..." />
-                <marker date="1517953471240" expanded="true" signature="1101:1218" ph="..." />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04.GalacticElections.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04.GalacticElections.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,6 +70,7 @@
         <option value="$PROJECT_DIR$/01.ThePyramidOfKingDjoser.js" />
         <option value="$PROJECT_DIR$/02.Jan'sNotation.js" />
         <option value="$PROJECT_DIR$/03.xmlMessenger.js" />
+        <option value="$PROJECT_DIR$/04.GalacticElections.js" />
       </list>
     </option>
   </component>
@@ -84,9 +92,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="558" />
+    <option name="x" value="583" />
+    <option name="y" value="6" />
     <option name="width" value="855" />
-    <option name="height" value="866" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -201,8 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,6 +221,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,20 +252,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.03.xmlMessenger.js">
+  <component name="RunManager" selected="Node.js.04.GalacticElections.js">
     <configuration name="01.ThePyramidOfKingDjoser.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="01.ThePyramidOfKingDjoser.js" working-dir="$PROJECT_DIR$" />
     <configuration name="02.Jan'sNotation.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="02.Jan'sNotation.js" working-dir="$PROJECT_DIR$" />
     <configuration name="03.xmlMessenger.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="03.xmlMessenger.js" working-dir="$PROJECT_DIR$" />
-    <list size="3">
+    <configuration name="04.GalacticElections.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="04.GalacticElections.js" working-dir="$PROJECT_DIR$" />
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.01.ThePyramidOfKingDjoser.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.02.Jan'sNotation.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.03.xmlMessenger.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.04.GalacticElections.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.03.xmlMessenger.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.02.Jan'sNotation.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.01.ThePyramidOfKingDjoser.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.04.GalacticElections.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.03.xmlMessenger.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.02.Jan'sNotation.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.01.ThePyramidOfKingDjoser.js" />
       </list>
     </recent_temporary>
   </component>
@@ -275,22 +287,23 @@
       <updated>1517774983662</updated>
       <workItem from="1517774984943" duration="695000" />
       <workItem from="1517848457565" duration="66000" />
-      <workItem from="1517942127879" duration="9711000" />
+      <workItem from="1517942127879" duration="9849000" />
+      <workItem from="1518020408951" duration="9073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10472000" />
+    <option name="totallyTimeSpent" value="19683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="558" y="0" width="855" height="866" extended-state="0" />
+    <frame x="583" y="6" width="855" height="865" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2117503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2117503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32831737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -312,11 +325,35 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01.ThePyramidOfKingDjoser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.Jan'sNotation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.xmlMessenger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01.ThePyramidOfKingDjoser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -353,18 +390,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="604" column="37" lean-forward="true" selection-start-line="604" selection-start-column="37" selection-end-line="604" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03.xmlMessenger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <marker date="1517953471240" expanded="true" signature="1101:1161" ph="..." />
-            <marker date="1517953471240" expanded="true" signature="1101:1218" ph="..." />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.GalacticElections.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

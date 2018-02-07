@@ -6,8 +6,8 @@ function xmlMessenger(text) {
 
     if (match !== null) {
 
-        patternFrom = /\b(from)="(.+?)"/g;
-        patternTo = /\b(to)="(.+?)"/g;
+        let patternFrom = /\b(from)="(.+?)"/g;
+        let patternTo = /\b(to)="(.+?)"/g;
         let matchFrom = patternFrom.exec(match[1]);
         let matchTo = patternTo.exec(match[1]);
 
