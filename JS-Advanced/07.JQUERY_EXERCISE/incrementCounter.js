@@ -8,6 +8,7 @@ function increment(selector) {
 
     //Textarea formation
     textArea.val(0);
+    console.log(textArea);
     textArea.addClass("counter");
     textArea.attr("disable", true);
 
