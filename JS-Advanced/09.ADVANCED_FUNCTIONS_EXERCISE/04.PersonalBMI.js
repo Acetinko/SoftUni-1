@@ -1,4 +1,4 @@
-function personalBMI(name, age, weight, height) {
+function result(name, age, weight, height) {
     let bmi = Math.round(weight / Math.pow(height / 100, 2));
     let status = '';
 
@@ -13,7 +13,7 @@ function personalBMI(name, age, weight, height) {
     }
 
     let patient = {
-        patient: name,
+        name: name,
         personalInfo: {
             age: age,
             weight: weight,
@@ -30,5 +30,7 @@ function personalBMI(name, age, weight, height) {
     return patient;
 }
 
-console.log(personalBMI("Peter", 29, 75, 182));
-console.log(personalBMI("Honey Boo Boo", 9, 57, 137));
+//console.log(personalBMI("Peter", 29, 75, 182));
+//console.log(personalBMI("Honey Boo Boo", 9, 57, 137));
+var chart = result('Kotooshu', 33, 152, 203);
+console.log(chart);
