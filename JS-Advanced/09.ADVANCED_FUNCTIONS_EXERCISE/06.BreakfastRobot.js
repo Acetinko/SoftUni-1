@@ -1,4 +1,4 @@
-let solution = function () {
+let breakfastRobot = function () {
     let robot = {
         protein: 0,
         carbohydrate: 0,
@@ -67,22 +67,21 @@ let solution = function () {
         }
     }
 };
+breakfastRobot = breakfastRobot();
+//console.log(breakfastRobot('restock carbohydrate 10'));
+//console.log(breakfastRobot('restock flavour 10'));
+//console.log(breakfastRobot('prepare apple 1'));
+//console.log(breakfastRobot('restock fat 10'));
+//console.log(breakfastRobot('prepare burger 1'));
+//console.log(breakfastRobot('report'));
 
-solution = solution();
-//console.log(solution('restock carbohydrate 10'));
-//console.log(solution('restock flavour 10'));
-//console.log(solution('prepare apple 1'));
-//console.log(solution('restock fat 10'));
-//console.log(solution('prepare burger 1'));
-//console.log(solution('report'));
-
-console.log(solution("prepare cheverme 1"));
-console.log(solution("restock protein 10"));
-console.log(solution("prepare cheverme 1"));
-console.log(solution("restock carbohydrate 10"));
-console.log(solution("prepare cheverme 1"));
-console.log(solution("restock fat 10"));
-console.log(solution("prepare cheverme 1"));
-console.log(solution("restock flavour 10"));
-console.log(solution("prepare cheverme 1"));
-console.log(solution("report"));
+console.log(breakfastRobot("prepare cheverme 1"));
+console.log(breakfastRobot("restock protein 10"));
+console.log(breakfastRobot("prepare cheverme 1"));
+console.log(breakfastRobot("restock carbohydrate 10"));
+console.log(breakfastRobot("prepare cheverme 1"));
+console.log(breakfastRobot("restock fat 10"));
+console.log(breakfastRobot("prepare cheverme 1"));
+console.log(breakfastRobot("restock flavour 10"));
+console.log(breakfastRobot("prepare cheverme 1"));
+console.log(breakfastRobot("report"));
