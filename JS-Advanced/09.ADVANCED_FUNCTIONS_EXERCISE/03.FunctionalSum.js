@@ -4,11 +4,9 @@ let add = (function () {
     return function addValue(number) {
         sum += number;
 
-        addValue.toString = function () {
-            return sum;
-        };
+         addValue.toString = () => sum;
 
-        return addValue;
+         return addValue;
     }
 })();
 
