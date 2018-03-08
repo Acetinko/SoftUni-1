@@ -1,0 +1,23 @@
+-Test initial state
+--add exists
+--remove exists
+--get exists
+--size exists
+-Add element
+--add one element
+--add many element
+-Test remove
+--test if list is empty (should throw)
+--test if index negative (should throw)
+--test if index is equal to list length (should throw)
+--test if index is bigger than list length (should throw)
+--test with correct index (element should be remove)
+-Test get
+--test if list is empty (should throw)
+--test if index negative (should throw)
+--test if index is equal to list length (should throw)
+--test if index is bigger than list length (should throw)
+--test with correct index (should remove correct element)
+-Test size
+--test with empty list
+--test with non-empty list

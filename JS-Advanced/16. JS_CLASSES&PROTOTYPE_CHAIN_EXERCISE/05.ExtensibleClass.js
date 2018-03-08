@@ -19,6 +19,8 @@ let Extensible = (function () {
     }
 })();
 
+module.exports = {Extensible};
+
 console.log(Extensible.prototype.hasOwnProperty('extend'));
 
 let obj1 = new Extensible();
