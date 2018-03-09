@@ -7,7 +7,7 @@ let Extensible = (function () {
         }
 
         extend(template){
-            for(let prop of template){
+            for(let prop in template){
 
                 if(typeof template[prop] === "function"){
                     Extensible.prototype[prop] = template[prop];
