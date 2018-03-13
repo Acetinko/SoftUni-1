@@ -31,11 +31,12 @@ function solve() {
     class Watermelon extends Melon {
         constructor(weight, melonSort) {
             super(weight, melonSort);
+            super.element = "Water";
         }
 
         toString() {
             let tokens = super.toString().split('\n');
-            tokens[0] += "Water";
+            tokens[0] += this.element;
             tokens[1] += this.melonSort;
 
             return tokens.join('\n');
@@ -46,11 +47,12 @@ function solve() {
 
         constructor(weight, melonSort) {
             super(weight, melonSort);
+            this.element = "Fire";
         }
 
         toString() {
             let tokens = super.toString().split('\n');
-            tokens[0] += "Fire";
+            tokens[0] += this.element;
             tokens[1] += this.melonSort;
 
             return tokens.join('\n');
@@ -60,11 +62,12 @@ function solve() {
     class Earthmelon extends Melon {
         constructor(weight, melonSort) {
             super(weight, melonSort);
+            this.element = "Earth";
         }
 
         toString() {
             let tokens = super.toString().split('\n');
-            tokens[0] += "Earth";
+            tokens[0] += this.element;
             tokens[1] += this.melonSort;
 
             return tokens.join('\n');
@@ -74,11 +77,12 @@ function solve() {
     class Airmelon extends Melon {
         constructor(weight, melonSort) {
             super(weight, melonSort);
+            this.element = "Air";
         }
 
         toString() {
             let tokens = super.toString().split('\n');
-            tokens[0] += "Air";
+            tokens[0] += this.element;
             tokens[1] += this.melonSort;
 
             return tokens.join('\n');
@@ -113,10 +117,20 @@ function solve() {
     }
 }
 
+let classes = solve();
+
+let test = new classes.Melolemonmelon(150, "Melo");
+
+console.log(test.toString());
+test.morph();
+console.log(test.toString());
+test.morph();
+console.log(test.toString());
+
 //let test = new Melon(100, "Test");
 //Throws error
 
-let watermelon = new Watermelon(12.5, "Kingsize");
+let watermelon = new classes.Watermelon(12.5, "Kingsize");
 console.log(watermelon.toString());
 
 // Element: Water

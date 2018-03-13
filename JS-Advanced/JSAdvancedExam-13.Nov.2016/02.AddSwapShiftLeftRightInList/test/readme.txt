@@ -1,0 +1,27 @@
+-Test initial state
+--add exist
+--shiftLeft exist
+--shiftRight exist
+--swap exist
+--toString exist
+-Test add function
+--add many number
+--add many string
+--add many object
+--add many type (number, string, object, array)
+-Test shiftLeft function
+--shiftLeft (with empty data)
+--shiftLeft (with many number)
+-Test shiftRight function
+--shiftRight (with empty data)
+--shiftRight (with many number)
+-Test swap function
+--swap(1, 2) add[1,2,3] return true
+--swap(2, 0) add[1,2,3] return true
+--swap(-1, 1) add[1,2,3] return false
+--swap(0, 3) add[1,2,3] return false
+--swap('r', 2) add[1,2,3] return false
+--swap('1', 'Pesho') add[1,2,3] return false
+-Test toString function
+--toString with empty data
+--toString with non-empty data
