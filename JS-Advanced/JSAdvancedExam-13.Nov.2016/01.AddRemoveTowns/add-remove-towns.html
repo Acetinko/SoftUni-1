@@ -32,18 +32,18 @@
         let btnDelete = $("#btnDelete");
         let btnAdd = $("#btnAdd");
 
-        btnAdd.on("click", function () {
-            if (newItem.val() !== '') {
-                let newOption = $("<option>");
-                newOption.text(newItem.val());
-                towns.append(newOption);
-            }
-            newItem.val('');
-        });
+       btnDelete.on("click", function () {
+           towns.find(":selected").remove();
+       });
 
-        btnDelete.on("click", function () {
-            towns.find(":selected").remove();
-        });
+       btnAdd.on("click", function () {
+           if (newItem[0].value !== '') {
+               let op = $("<option>");
+               op.text(newItem[0].value);
+               towns.append(op);
+           }
+           newItem[0].value = '';
+       });
     }
 </script>
 </body>
