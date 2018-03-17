@@ -2,93 +2,77 @@ let expect = require("chai").expect;
 let StringBuilder = require("../string-builder").StringBuilder;
 
 describe("Test StringBuilder", function () {
-    let strBuilder;
+    let stringBuilder;
     beforeEach(function () {
-        strBuilder = new StringBuilder("test");
+        stringBuilder = new StringBuilder('pesho');
     });
 
-    describe("-Test all method - exist", function () {
-        it("--it should have initialized all methods", function () {
+    describe("-function exist", function () {
+        it('--exist', function () {
             expect(StringBuilder.prototype.hasOwnProperty("append")).to.be.true;
-            // or
-            expect(Object.getPrototypeOf(strBuilder).hasOwnProperty('prepend')).to.be.true;
+            expect(StringBuilder.prototype.hasOwnProperty("prepend")).to.be.true;
             expect(StringBuilder.prototype.hasOwnProperty("insertAt")).to.be.true;
             expect(StringBuilder.prototype.hasOwnProperty("remove")).to.be.true;
             expect(StringBuilder.prototype.hasOwnProperty("toString")).to.be.true;
         });
     });
 
-    describe("Test prepend", function () {
-        it("append", function () {
-            strBuilder.append(' Pesho');
-            expect(strBuilder.toString()).to.be.equal('test Pesho')
+    describe("-append", function () {
+        it('--append(non-string)', function () {
+            expect(() => stringBuilder.append(9)).to.be.throw(TypeError, 'Argument must be string');
         });
-
-        it("append", function () {
-            strBuilder.append(' Pesho');
-            expect(strBuilder._stringArray.length).to.be.equal(10);
+        it('--append(string)', function () {
+            stringBuilder.append(", tests");
+            expect(stringBuilder._stringArray.join('')).to.be.equal("pesho, tests");
         });
-
-        it("append Error", function () {
-            let obj = {};
-            expect(() => strBuilder.append(obj)).to.throw(TypeError);
+        it('--append(string)', function () {
+            stringBuilder.append(", tests");
+            expect(stringBuilder._stringArray.length).to.be.equal(12);
         });
     });
 
-    describe("Test prepend", function () {
-        it("prepend", function () {
-            strBuilder.prepend('Pesho ');
-            expect(strBuilder.toString()).to.be.equal('Pesho test')
+    describe("-prepend", function () {
+        it('--prepend(non-string)', function () {
+            expect(() => stringBuilder.prepend(8)).to.be.throw(TypeError, 'Argument must be string');
         });
-
-        it("prepend", function () {
-            strBuilder.prepend('Pesho ');
-            expect(strBuilder._stringArray.length).to.be.equal(10);
+        it('--prepend(string)', function () {
+            stringBuilder.prepend("tests, ");
+            expect(stringBuilder._stringArray.join('')).to.be.equal("tests, pesho");
         });
-
-        it("prepend Error", function () {
-            let obj = {};
-            expect(() => strBuilder.prepend(obj)).to.throw(TypeError);
+        it('--prepend(string)', function () {
+            stringBuilder.prepend("tests, ");
+            expect(stringBuilder._stringArray.length).to.be.equal(12);
         });
     });
 
-    describe("Test insertAt", function () {
-        it("insertAt", function() {
-            strBuilder.insertAt('ss', 2);
-            expect(strBuilder._stringArray.length).to.be.equal(6);
+    describe("-insertAt", function () {
+        it('--insertAt(non-string)', function () {
+            expect(() => stringBuilder.insertAt(23, 2)).to.be.throw(TypeError, 'Argument must be string');
         });
-
-        it("insertAt", function() {
-            strBuilder.insertAt('ss', 2);
-            expect(strBuilder.toString()).to.be.equal('tessst');
+        it('--insertAt(string)', function () {
+            stringBuilder.insertAt("tests", 1);
+            expect(stringBuilder._stringArray.join('')).to.be.equal("ptestsesho");
         });
-
-        it("insertAt Error", function() {
-            expect(() => {strBuilder.insertAt([], 2)}).to.throw(TypeError);
+        it('--insertAt(string)', function () {
+            stringBuilder.insertAt("tests", 5);
+            expect(stringBuilder._stringArray.length).to.be.equal(10);
         });
     });
 
-    describe("Test remove", function () {
-        it("remove", function() {
-            strBuilder.remove(1, 2);
-            expect(strBuilder._stringArray.length).to.be.equal(2);
-        });
-        it("remove", function() {
-            strBuilder.remove(1, 2);
-            expect(strBuilder.toString()).to.be.equal('tt');
+    describe("-remove", function () {
+        it('--remove(0, length+1)', function () {
+            stringBuilder.remove(0, "pesho".length);
+            expect(stringBuilder._stringArray.join('')).to.be.equal('');
         });
     });
 
-    it("It should return same string", function () {
-        expect(strBuilder.toString()).to.be.equal("test");
-    });
-
-    it("It should return empty string", function () {
-        strBuilder = new StringBuilder();
-        expect(strBuilder.toString()).to.be.equal('');
-    });
-
-    it("It should throw Error", function () {
-        expect(() => new StringBuilder(45)).to.be.throw(TypeError);
+    describe("-toString", function () {
+        it('--toString empty', function () {
+            let str = new StringBuilder('');
+            expect(str.toString()).to.be.equal('');
+        });
+        it('--toString non-empty', function () {
+            expect(stringBuilder.toString()).to.be.equal("pesho");
+        });
     });
 });
