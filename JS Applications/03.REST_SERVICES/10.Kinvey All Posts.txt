@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "5ab00b7a34fcd45ca0f69e77",
+        "_acl": {
+            "creator": "5ab008aaddf9f63125771dd5"
+        },
+        "body": "Second Post Body",
+        "title": "Second Post Title",
+        "_kmd": {
+            "lmt": "2018-03-19T19:17:53.408Z",
+            "ect": "2018-03-19T19:11:53.991Z"
+        }
+    },
+    {
+        "_id": "5ab00cb9be4123312423aeb7",
+        "body": "First Post Body",
+        "title": "First Post Title",
+        "_acl": {
+            "creator": "5ab008aaddf9f63125771dd5"
+        },
+        "_kmd": {
+            "lmt": "2018-03-19T19:17:13.359Z",
+            "ect": "2018-03-19T19:17:13.359Z"
+        }
+    },
+    {
+        "_id": "5ab00cf834fcd45ca0f6a232",
+        "body": "Third Post Body",
+        "title": "Third Post Title",
+        "_acl": {
+            "creator": "5ab008aaddf9f63125771dd5"
+        },
+        "_kmd": {
+            "lmt": "2018-03-19T19:18:16.836Z",
+            "ect": "2018-03-19T19:18:16.836Z"
+        }
+    }
+]
