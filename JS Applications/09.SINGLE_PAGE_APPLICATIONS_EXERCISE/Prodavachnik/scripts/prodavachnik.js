@@ -1,8 +1,17 @@
 function startApp() {
     const databaseName = "prodavachnik";
+    const ADS_DIV = $('#ads');
 
     $('header').find('a').show();
-    const adsDiv = $('#ads')
+    eventListeners();
+
+    if (sessionStorage.getItem('authtoken') !== null &&
+        sessionStorage.getItem('username') !== null) {
+        userLoggedIn();
+    } else {
+        userLoggedOut();
+    }
+    showView('home');
 
     function showView(view) {
         $('section').hide();
@@ -38,18 +47,19 @@ function startApp() {
         $('#' + target).show();
     }
 
-    // Attach event listeners
-    $('#linkHome').click(() => showView('home'));
-    $('#linkLogin').click(() => showView('login'));
-    $('#linkRegister').click(() => showView('register'));
-    $('#linkListAds').click(() => showView('ads'));
-    $('#linkCreateAd').click(() => showView('create'));
-    $('#linkLogout').click(logout);
+    function eventListeners() {
+        $('#linkHome').click(() => showView('home'));
+        $('#linkLogin').click(() => showView('login'));
+        $('#linkRegister').click(() => showView('register'));
+        $('#linkListAds').click(() => showView('ads'));
+        $('#linkCreateAd').click(() => showView('create'));
+        $('#linkLogout').click(logout);
 
-    $('#buttonLoginUser').click(login);
-    $('#buttonRegisterUser').click(register);
-    $('#buttonCreateAd').click(createAd);
-    $('#buttonEditAd').click(editAd);
+        $('#buttonLoginUser').click(login);
+        $('#buttonRegisterUser').click(register);
+        $('#buttonCreateAd').click(createAd);
+        $('#buttonEditAd').click(editAd);
+    }
 
     // Notifications
     $(document).on({
@@ -61,14 +71,16 @@ function startApp() {
     $('#errorBox').click((event) => $(event.target).hide());
 
     function showInfo(message) {
-        $('#infoBox').text(message);
-        $('#infoBox').show();
-        setTimeout(() => $('#infoBox').fadeOut(), 3000);
+        let infoBox = $('#infoBox');
+        infoBox.text(message);
+        infoBox.show();
+        setTimeout(() => infoBox.fadeOut(), 3000);
     }
 
     function showError(message) {
-        $('#errorBox').text(message);
-        $('#errorBox').show();
+        let errorBox = $("#errorBox");
+        errorBox.text(message);
+        errorBox.show();
     }
 
     function handleError(reason) {
@@ -82,7 +94,7 @@ function startApp() {
 
         function makeAuth(type) {
             if (type === 'basic') return 'Basic ' + btoa(APP_KEY + ':' + APP_SECRET);
-            else return 'Kinvey ' + localStorage.getItem('authtoken');
+            else return 'Kinvey ' + sessionStorage.getItem('authtoken');
         }
 
         function makeRequest(method, module, url, auth) {
@@ -122,17 +134,10 @@ function startApp() {
         }
     })();
 
-    if (localStorage.getItem('authtoken') !== null &&
-        localStorage.getItem('username') !== null) {
-        userLoggedIn();
-    } else {
-        userLoggedOut();
-    }
-    showView('home');
-
     function userLoggedIn() {
-        $('#loggedInUser').text(`Welcome, ${localStorage.getItem('username')}!`);
-        $('#loggedInUser').show();
+        let loggedInUser = $("#loggedInUser");
+        loggedInUser.text(`Welcome, ${sessionStorage.getItem('username')}!`);
+        loggedInUser.show();
         $('#linkLogin').hide();
         $('#linkRegister').hide();
         $('#linkLogout').show();
@@ -141,8 +146,9 @@ function startApp() {
     }
 
     function userLoggedOut() {
-        $('#loggedInUser').text('');
-        $('#loggedInUser').hide();
+        let loggedInUser = $("#loggedInUser");
+        loggedInUser.text('');
+        loggedInUser.hide();
         $('#linkLogin').show();
         $('#linkRegister').show();
         $('#linkLogout').hide();
@@ -151,16 +157,15 @@ function startApp() {
     }
 
     function saveSession(data) {
-        localStorage.setItem('username', data.username);
-        localStorage.setItem('id', data._id);
-        localStorage.setItem('authtoken', data._kmd.authtoken);
+        sessionStorage.setItem('username', data.username);
+        sessionStorage.setItem('id', data._id);
+        sessionStorage.setItem('authtoken', data._kmd.authtoken);
         userLoggedIn();
     }
 
     async function login() {
-        let form = $('#formLogin');
-        let username = form.find('input[name="username"]').val();
-        let password = form.find('input[name="passwd"]').val();
+        let username = $('#formLogin input[name="username"]').val();
+        let password = $('#formLogin input[name="passwd"]').val();
 
         try {
             let data = await requester.post('user', 'login', {username, password}, 'basic');
@@ -173,9 +178,8 @@ function startApp() {
     }
 
     async function register() {
-        let form = $('#formRegister');
-        let username = form.find('input[name="username"]').val();
-        let password = form.find('input[name="passwd"]').val();
+        let username = $('#formLogin input[name="username"]').val();
+        let password = $('#formLogin input[name="passwd"]').val();
 
         try {
             let data = await requester.post('user', '', {username, password}, 'basic');
@@ -189,8 +193,8 @@ function startApp() {
 
     async function logout() {
         try {
-            let data = await requester.post('user', '_logout', {authtoken: localStorage.getItem('authtoken')});
-            localStorage.clear();
+            let data = await requester.post('user', '_logout', {authtoken: sessionStorage.getItem('authtoken')});
+            sessionStorage.clear();
             showInfo('Logged out');
             userLoggedOut();
             showView('home');
@@ -200,10 +204,10 @@ function startApp() {
     }
 
     async function loadAds() {
-        let data = await requester.get('appdata', 'prodavachnik');
-        adsDiv.empty();
+        let data = await requester.get('appdata', databaseName);
+        ADS_DIV.empty();
         if (data.length === 0) {
-            adsDiv.append('<p>No ads in database</p>');
+            ADS_DIV.append('<p>Database is empty</p>');
             return;
         }
 
@@ -226,7 +230,7 @@ function startApp() {
             trData.append(`<td>Price: ${Number(ad.price).toFixed(2)}</td>`);
             trData.append(`<td>${ad.date}</td>`);
 
-            if (ad._acl.creator === localStorage.getItem('id')) {
+            if (ad._acl.creator === sessionStorage.getItem('id')) {
                 let tdButton = $("<td>");
 
                 let deleteBtn = $('<a href="#">[Delete]</a>').click(() => deleteAd(ad._id));
@@ -241,11 +245,11 @@ function startApp() {
             }
             table.append(trData);
         }
-        adsDiv.append(table);
+        ADS_DIV.append(table);
     }
 
     async function deleteAd(id) {
-        await requester.remove('appdata', 'prodavachnik/' + id);
+        await requester.remove('appdata', databaseName + '/' + id);
         showInfo('Ad deleted');
         showView('ads');
     }
@@ -288,7 +292,7 @@ function startApp() {
         };
 
         try {
-            await requester.update('appdata', 'prodavachnik/' + id, editedAd);
+            await requester.update('appdata', databaseName + '/' + id, editedAd);
             showInfo('Ad editted');
             showView('ads');
         } catch (err) {
@@ -303,7 +307,7 @@ function startApp() {
         let price = Number(form.find('input[name="price"]').val());
         let imageUrl = form.find('input[name="image"]').val();
         let date = form.find('input[name="datePublished"]').val();
-        let publisher = localStorage.getItem('username');
+        let publisher = sessionStorage.getItem('username');
 
         if (title.length === 0) {
             showError('Title cannot be empty');
