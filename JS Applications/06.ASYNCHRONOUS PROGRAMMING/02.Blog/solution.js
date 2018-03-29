@@ -1,9 +1,9 @@
 function attachEvents() {
-    const kinveyAppId = "kid_B15S6I9Zl";
-    const serviceUrl = "https://baas.kinvey.com/appdata/" + kinveyAppId;
-    const kinveyUsername = "peter";
-    const kinveyPassword = "p";
-    const base64auth = btoa(kinveyUsername + ":" + kinveyPassword);
+    const appId = "kid_B15S6I9Zl";
+    const url = "https://baas.kinvey.com/appdata/" + appId;
+    const username = "peter";
+    const password = "p";
+    const base64auth = btoa(username + ":" + password);
     const authHeaders = {"Authorization": "Basic " + base64auth};
 
     $("#btnLoadPosts").click(loadPostsClick);
@@ -11,7 +11,7 @@ function attachEvents() {
 
     function loadPostsClick() {
         let loadPostsRequest = {
-            url: serviceUrl + "/posts",
+            url: url + "/posts",
             headers: authHeaders,
         };
         $.ajax(loadPostsRequest)
@@ -21,6 +21,7 @@ function attachEvents() {
 
     function displayPosts(posts) {
         $("#posts").empty();
+
         for (let post of posts) {
             let option = $("<option>")
                 .text(post.title)
@@ -29,26 +30,18 @@ function attachEvents() {
         }
     }
 
-    function displayError(err) {
-        let errorDiv = $("<div>").text("Error: " +
-            err.status + ' (' + err.statusText + ')');
-        $(document.body).prepend(errorDiv);
-        setTimeout(function () {
-            $(errorDiv).fadeOut(function () {
-                $(errorDiv).remove();
-            });
-        }, 3000);
-    }
-
     function viewPostClick() {
         let selectedPostId = $("#posts").val();
-        if (!selectedPostId) return;
+        if (!selectedPostId) {
+            return
+        }
+
         let requestPosts = $.ajax({
-            url: serviceUrl + "/posts/" + selectedPostId,
+            url: url + "/posts/" + selectedPostId,
             headers: authHeaders
         });
         let requestComments = $.ajax({
-            url: serviceUrl + `/comments/?query={"post_id":"${selectedPostId}"}`,
+            url: url + `/comments/?query={"post_id":"${selectedPostId}"}`,
             headers: authHeaders
         });
         Promise.all([requestPosts, requestComments])
@@ -66,5 +59,16 @@ function attachEvents() {
             $("#post-comments")
                 .append(commentItem);
         }
+    }
+
+    function displayError(err) {
+        let errorDiv = $("<div>").text("Error: " +
+            err.status + ' (' + err.statusText + ')');
+        $(document.body).prepend(errorDiv);
+        setTimeout(function () {
+            $(errorDiv).fadeOut(function () {
+                $(errorDiv).remove();
+            });
+        }, 3000);
     }
 }
