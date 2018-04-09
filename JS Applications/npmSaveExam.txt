@@ -1,0 +1,8 @@
+npm install --save jquery
+npm install --save handlebars
+npm install --save sammy
+
+За <form id="formLogin"> и <form id="formRegister"> добавяме:
+action="#/....." method="post"
+<form id="formLogin" action="#/login" method="post">
+<form id="formRegister" action="#/register" method="post">
