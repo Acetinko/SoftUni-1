@@ -4,7 +4,7 @@ let auth = (() => {
         sessionStorage.setItem('authtoken', userAuth);
         sessionStorage.setItem('userId', userInfo._id);
         sessionStorage.setItem('username', userInfo.username);
-        sessionStorage.setItem('name', userInfo.name);
+        sessionStorage.setItem('subscriptions', userInfo.subscriptions);
     }
 
     function isAuth() {
@@ -22,10 +22,11 @@ let auth = (() => {
     }
 
     // user/register
-    function register(username, password) {
+    function register(username, password, subscriptions) {
         let userData = {
             username,
-            password
+            password,
+            subscriptions
         };
 
         return requester.post('user', '', 'basic', userData);

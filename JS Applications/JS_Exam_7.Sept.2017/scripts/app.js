@@ -14,9 +14,15 @@ $(() => {
         this.get("#/register", handlers.displayRegister);
         this.post("#/register", handlers.registerAction);
 
-        //this.get("#/messages", handlers.myMessages);
+        this.get("#/home", handlers.displayFeed);
+        this.get("#/feed", handlers.displayFeed);
 
-        //this.get("#/send", handlers.sendMessageDisplay);
+        this.post("#/chirp/post", handlers.chirpPostAction);
+        this.get("#/chirp/del/:id", handlers.chirpDeleteAction);
+
+        this.get("#/me", handlers.displayMe);
+
+        this.get("#/discover", handlers.displayDiscover);
         //this.post("#/send", handlers.sendMessageAction);
 
         //this.get("#/archive", handlers.archiveDisplay);
