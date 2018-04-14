@@ -13,8 +13,8 @@ handlers.loginAction = function (ctx) {
 
     auth.login(username, password).then((userInfo) => {
             auth.saveSession(userInfo);
-            ctx.redirect("#/home");
-            notifications.showInfo("Login successful!");
+            ctx.redirect("#/");
+            notifications.showInfo("Login successful.");
         }).catch(notifications.handleError);
 };
 
@@ -57,6 +57,6 @@ handlers.registerAction = function (ctx) {
     auth.register(username, password, []).then((userInfo) => {
             auth.saveSession(userInfo);
             ctx.redirect("#");
-            notifications.showInfo("User registration successful!");
+            notifications.showInfo("User registration successful.");
         }).catch(notifications.handleError);
 };

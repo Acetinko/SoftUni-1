@@ -3,8 +3,10 @@ handlers.feed = function (ctx) {
         ctx.redirect('#');
         return;
     }
+
     ctx.currentUser = localStorage.getItem('username');
     ctx.filter = ctx.params.filter;
+
     if (ctx.filter) {
         if (ctx.filter === ctx.currentUser) {
             ctx.isMe = true;
@@ -14,6 +16,7 @@ handlers.feed = function (ctx) {
     } else {
         ctx.isMe = true;
     }
+
     ctx.loadPartials({
         header: './templates/common/header.hbs',
         footer: './templates/common/footer.hbs',
@@ -23,6 +26,7 @@ handlers.feed = function (ctx) {
         ctx.partials = this.partials;
         ctx.partial('./templates/feed.hbs');
 
+        console.log(ctx.filter);
         service.getChirps(ctx.filter).then((chirps) => {
             chirps.map(c => {
                 c.time = calcTime(c._kmd.ect);

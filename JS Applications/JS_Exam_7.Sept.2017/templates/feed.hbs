@@ -10,28 +10,12 @@
             </form>
 
             <div id="userStats" class="user-details">
-                <span>0 chirps</span> | <span>1 following</span> | <span>0 followers</span>
+                <span>0 chirps</span> | <span>0 following</span> | <span>0 followers</span>
             </div>
         </div>
-        <div id="chirps" class="chirps"><h2 class="titlebar">Chirps</h2>
-            {{#each chirps}}
-                <article class="chirp">
-                    <div class="titlebar">
-                        <a href="#" class="chirp-author">{{author}}</a>
-                        <span class="chirp-time">
-                            <a href="#/chirp/del/:{{_id}}">Delete</a>
-                            {{calcTime}}
-                        </span>
-                    </div>
-                    <p>{{text}}</p>
-                </article>
-            {{else}}
-                <article class="chirp">
-                    <div class="titlebar">
-                        <p>No chirps in database.</p>
-                    </div>
-                </article>
-            {{/each}}
+        <div id="chirps" class="chirps">
+            <h2 class="titlebar">Chirps</h2>
+
         </div>
     </div>
 </section>
