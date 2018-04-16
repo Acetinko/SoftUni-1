@@ -1,3 +1,4 @@
+pass: Texp3804
 -Манипулации на данни?
 --user authentication
 --user: RU

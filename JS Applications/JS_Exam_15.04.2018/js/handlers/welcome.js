@@ -1,15 +1,13 @@
-handlers.menu = function () {
+handlers.welcome = function () {
     let content = {
-        header: "./templates/common/header.hbs",
         footer: "./templates/common/footer.hbs",
-        page: "./templates/login.hbs",
+        page: "./templates/welcome.hbs",
+        header : "./templates/common/header.hbs"
     };
-
     if (auth.isAuth()) {
         this.username = sessionStorage.getItem("username");
-        content.menu = "./templates/common/menu.hbs";
-    } else {
-        this.redirect("#/login");
+        this.isAuth = auth.isAuth();
+        this.redirect("#/edit");
     }
 
     this.loadPartials(content).then(function () {

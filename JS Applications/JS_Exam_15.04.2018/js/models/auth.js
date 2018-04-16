@@ -4,7 +4,6 @@ let auth = (() => {
         sessionStorage.setItem('authtoken', userAuth);
         sessionStorage.setItem('userId', userInfo._id);
         sessionStorage.setItem('username', userInfo.username);
-        sessionStorage.setItem('subscriptions', userInfo.subscriptions);
     }
 
     function isAuth() {
