@@ -7,7 +7,7 @@ body {
 table {
     color: #333333;
     border-spacing: 0;
-    margin: auto;
+    margin: 0 auto;
 }
 
 thead > tr > th{
@@ -16,6 +16,14 @@ thead > tr > th{
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+tbody > tr > th {
+    padding: 5px 30px 5px 10px;
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+    background-color: #84b3ad;
 }
 
 tbody > tr > td {

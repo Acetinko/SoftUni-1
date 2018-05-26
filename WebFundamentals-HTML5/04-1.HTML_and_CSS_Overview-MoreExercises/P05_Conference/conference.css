@@ -1,0 +1,86 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400');
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    margin: auto;
+    background-color: #293F50;
+    background-size: cover;
+    height: 360px;
+    text-align: center;
+    margin-top: 0;
+}
+
+nav > ul {
+    margin: auto;
+    background-color: #293F50;
+    padding: 0;
+    height: 40px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+nav > ul > li {
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 0;
+    text-align: center;
+    display: inline-block
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #425D64;
+}
+
+.container > h1 {
+    color: #8A969F;
+    text-transform: uppercase;
+}
+
+.container > p:first-child {
+    margin-top: 0;
+    text-align: right;
+    color: #648880;
+    text-transform: uppercase;
+}
+
+.container > h3 {
+    color: #648880;
+}
+
+.container > p {
+    color: #8A969F;
+}
+
+.btn {
+    color: #ffffff;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    margin-top: 40px;
+    padding: 15px 45px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #ffffff;
+    border-color: #000;
+    color: #648880;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #293F50;
+}
+
+footer > p {
+    text-transform: lowercase;
+    color: #425D64;
+    height: 50px;
+    line-height: 60px;
+}
