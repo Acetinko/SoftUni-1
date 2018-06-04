@@ -1,0 +1,29 @@
+body {
+    background: #EE7047;
+}
+
+nav {
+    float: right;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;;
+}
+
+
+header {
+    border: 1px double #F9B443;
+    width: 28.6rem;
+    text-align: center;
+}
+
+div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div img{
+    float: right;
+    width: 30%;
+}
