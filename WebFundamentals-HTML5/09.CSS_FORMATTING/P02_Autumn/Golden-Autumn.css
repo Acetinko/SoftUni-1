@@ -1,107 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 body {
-    background-color: #ED7046;
-    font-family: 'Open sans', sans-serif;
+    background: #EE7047;
 }
 
-nav > ul li {
-    display: inline-block;
+nav {
     float: right;
-    padding-top: 15px;
+    text-align: right;
 }
 
-nav > ul a {
-    text-decoration: none;
-    padding: 15px 10px;
-    border: 4px double #BB4846;
-    margin: 7px;
-    color: #4d3a3a;
-    background: none;
-    border-radius: 12%;
-    text-transform: uppercase;
-    font-size: 0.6rem;
-    font-weight: bold;
+nav ul li {
+    display: inline-block;;
 }
+
 
 header {
-    margin-top: 2%;
-}
-
-header h1 {
-    border: double #BB4846;
-    display: inline;
-    padding: 11px 31px;
-    font-size: 1.9em;
-    color: #4d3a3a;
-    font-style: italic;
-    font-weight: 900;
-    position: relative;
-    top: 10px;
-    left: 26px;
-}
-
-main {
-    margin-top: 50px;
-    background-color: #F8B544;
-    padding: 2px 4px;
-    border-radius: 10px;
-}
-
-main > article div {
-    border: double 3px #BB4846;
-
-    border-radius: 15px;
-    padding: 35px;
-    margin: 20px 20px 30px;
-}
-
-main > article div figure {
-    float: right;
-    width: 20%;
-    margin-left: 63px;
-}
-
-main > article div img {
-    width: 100%;
-    height: 100%;
-    border: 3px solid #BB4846;
-    border-radius: 25px;
-}
-
-main > article p {
-    text-align: justify;
-}
-
-button {
-    border: 3px solid #BB4846;
-    background: transparent;
-    color: #BB4846;
-    padding: 12px 27px;
-    margin-top: 25px;
-    text-transform: uppercase;
-    font-size: 1.8rem;
-    border-radius: 18px;
-    font-weight: bold;
-    outline: none;
-}
-
-footer {
-    border: dotted #BB4846;
-    border-radius: 10px;
-    color: #4d3a3a;
+    border: 1px double #F9B443;
+    width: 28.6rem;
     text-align: center;
-    margin: 20px;
-    font-weight: 900;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    padding: 10px 3px;
 }
 
-button:hover, a:hover {
-    color: white;
-    background: #BB4846;
-    font-style: italic;
-    font-weight: bold;
-    cursor: pointer;
+div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div img{
+    float: right;
+    width: 30%;
 }
