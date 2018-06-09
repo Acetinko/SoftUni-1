@@ -1,0 +1,82 @@
+@import "fonts/fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 15px Tahoma, Arial, sans-serif;
+    background: #CACACA;
+    width: 1000px;
+}
+
+nav {
+    margin: 40px 5px 0 83px;
+    padding: 30px 40px;
+    background: #FFFFFF;
+}
+
+nav > ul {
+
+}
+
+nav > ul li {
+    display: inline-block;
+}
+
+nav > ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+nav > ul > li:nth-child(1) > a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #BF1363;
+}
+
+nav > ul a:hover {
+    color: #BF1363;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+main > section {
+    display: inline-grid;
+    background-color: white;
+    margin: 0 3px 0 3px;
+    padding-bottom: 25px;
+}
+main > section:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+main > section > img {
+    width: 220px;
+    height: 150px;
+}
+
+main > section > h3 {
+    padding: 0 10px;
+    font-family: monospace,sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    font-style: normal;
+}
+
+main > section > p {
+    padding: 0 10px;
+    text-align: left;
+    width: 200px;
+    height: 60px;
+    display: block;
+    word-wrap: normal;
+}
