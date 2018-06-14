@@ -1,0 +1,63 @@
+@import "fonts/OpenSans-ExtraBold.ttf";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 56px;
+    background: #F0F0E8;
+}
+
+main > h1 {
+    text-align: center;
+    color: #009288;
+}
+
+main > h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: #807F7D;
+}
+
+main  section {
+    margin: 30px 0 0 130px;
+}
+main  article {
+    margin: 0 -10px;
+    padding: 25px 5px;
+    font-size: 16px;
+    display: inline-grid;
+    border: 15px solid #F0F0E8;
+}
+
+main article:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 15px solid #009288;
+    border-right-color: #F0F0E8;
+    border-top-style: none;
+    border-bottom-style: none;
+}
+
+main article >img {
+    display: block;
+    margin: 0 auto;
+}
+
+main article h2 {
+    color: #807F7D;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+main article p {
+    display: block;
+    color: #807F7D;
+    word-wrap: break-word;
+    width: 185px;
+    text-align: center;
+}
