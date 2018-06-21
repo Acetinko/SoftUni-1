@@ -1,16 +1,14 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 
-ul,
-nav,
-label {
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-size: 14px;
     font-family: Tahoma, Helvetica, sans-serif;
-    padding: 80px 50px;
+    font-size: 14px;
+    padding: 5% 5%;
 }
 
 nav {

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+}
+
+.left-section {
+    width: 60%;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.right-section {
+    width: 35%;
+    padding: 20px;
+}
+
+.left-section h1 {
+    font-weight: bold;
+}
+
+.left-section > p {
+    width: 88.7%;
+    margin: 20px 0;
+    color: #A7A7A7;
+    font-size: 0.7em;
+}
+
+.left-section p {
+    color: #A7A7A7;
+}
+
+.form-name label, .form-email-phone label {
+    width: 45%;
+    margin: 10px 0;
+}
+
+form input {
+    padding: 5px;
+}
+
+.form-name, .form-email-phone {
+    display: flex;
+}
+
+.form-name input, .form-email-phone input {
+    width: 94%;
+}
+
+.message {
+    width: 100%;
+}
+
+textarea {
+    width: 88.7%;
+}
+
+.btn {
+    display: block;
+    margin-top: 10px;
+    padding: 9px 25px;
+    background: #E8771F;
+    border: none;
+    font-size: 9px;
+    font-weight: bold;
+    color: white;
+}
+
+.right-section article {
+    margin: 5% 35% 5% 0;
+}
+
+body > main > section.right-section > article:nth-child(1) {
+    margin-top: 0;
+}
+
+.right-section h4 {
+    margin: 10px 0;
+    border-bottom: 2px solid #A7A7A7;
+    padding-bottom: 10px;
+}
+
+.right-section p {
+    margin: 2px 0;
+    margin-left: 20px;
+    align-items: right;
+}
+
+section > article i {
+    color: #2EA620;
+}
