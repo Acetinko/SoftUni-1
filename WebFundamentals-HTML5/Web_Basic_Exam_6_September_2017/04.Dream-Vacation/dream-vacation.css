@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+header {
+    /*За затъмняване на фона, от какъв цвят към какъв да премине */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/background.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+header img {
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+header > nav {
+    float: right;
+    margin-top: 10px;
+    margin-right: 6%;
+}
+
+header > nav > ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+header > nav > ul a {
+    color: #FFFFFF;
+    font-size: 0.6em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header > h1 {
+    text-align: center;
+    margin-top: 190px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 3.9em;
+}
+
+header > p {
+    text-align: center;
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+
+main > section.box-offer > h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+main > section.box-offer > p {
+    text-align: center;
+    font-size: 0.7em;
+    color: #CCCCCC;
+    margin-bottom: 30px;
+}
+
+main > section > article {
+    width: 17%;
+    background: #CCCCCC;
+}
+
+main > section > article > img {
+    width: 100%;
+}
+
+main > section > article span.destination {
+    font-weight: bold;
+    display: block;
+    float: left;
+}
+
+main > section > article span.price {
+    display: block;
+    float: right;
+}

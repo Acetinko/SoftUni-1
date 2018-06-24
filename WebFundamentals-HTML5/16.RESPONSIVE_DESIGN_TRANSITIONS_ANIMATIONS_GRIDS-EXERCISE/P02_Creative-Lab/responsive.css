@@ -1,0 +1,96 @@
+@media only screen and (min-width: 640px) and (max-width: 980px) {
+    body #wrapper {
+        flex-flow: column;
+    }
+
+    body #wrapper > header > h1 a {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    body #wrapper > header > h1 > a img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    body #wrapper > header > h1 > a span {
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    body #wrapper > header nav {
+        margin-top: 40px;
+    }
+
+    body #wrapper > header > nav > ul {
+        flex-flow: column;
+        width: 100%;
+    }
+
+    body #wrapper > header > nav > ul li {
+        margin: 10px auto;
+        width: 900px;
+    }
+
+    body #wrapper > section {
+        width: 100%;
+    }
+
+    body #wrapper > aside {
+        flex-flow: row;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    body #wrapper {
+        flex-flow: column;
+    }
+
+    body #wrapper > header > h1 a {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    body #wrapper > header > h1 > a img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    body #wrapper > header > h1 > a span {
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    body #wrapper > header nav {
+        margin-top: 40px;
+    }
+
+    body #wrapper > header > nav > ul {
+        flex-flow: column;
+        width: 100%;
+    }
+
+    body #wrapper > header > nav > ul li {
+        margin: 10px auto;
+        width: 900px;
+    }
+
+    body #wrapper > section {
+        width: 100%;
+    }
+
+    body #wrapper > aside {
+        width: 100%;
+        flex-flow: column;
+    }
+}
+

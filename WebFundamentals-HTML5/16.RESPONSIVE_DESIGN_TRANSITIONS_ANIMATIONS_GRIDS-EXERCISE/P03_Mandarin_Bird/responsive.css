@@ -1,0 +1,60 @@
+@media screen and (min-width: 729px) and (max-width: 1200px) {
+    #wrapper > main > section {
+        flex: unset;
+        width: 94%;
+    }
+
+    #wrapper > main > aside {
+        margin-top: 0;
+        width: 96%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 730px) {
+
+    #wrapper > header > nav > ul li {
+
+        float: unset;
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+
+    #wrapper > main {
+        margin-top: 180px;
+    }
+
+    #wrapper > main > section {
+        flex: unset;
+        width: 94%;
+    }
+
+    #wrapper > main > aside {
+        margin-top: 0;
+        width: 96%;
+    }
+
+    #wrapper > main > section > div {
+        display: flex;
+        flex-flow: column;
+        height: 300px;
+    }
+
+    #wrapper > main > section > div > div {
+        background: green;
+        width: 100%;
+
+    }
+
+    #wrapper > main > section > div > div > img {
+        margin: 0 357px;
+    }
+
+    #wrapper > main > section > div > article > h3 {
+        text-align: center;
+    }
+
+    #wrapper > main > aside > article h1, h2 {
+        text-align: center;
+    }
+}
