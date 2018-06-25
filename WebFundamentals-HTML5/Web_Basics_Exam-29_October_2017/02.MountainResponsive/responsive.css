@@ -1,0 +1,109 @@
+@media all and (max-width: 479px) {
+
+    body .menu {
+        width: auto;
+        height: auto;
+        padding: 23px;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .menu span:after {
+        content: "\2630";
+        margin: 0;
+        float: right;
+    }
+
+    .about-us {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .menu span {
+        margin: 0;
+        letter-spacing: unset;
+    }
+
+    .about-us h1 {
+        font-size: 25px;
+        padding-left: 10px;
+    }
+
+    .about-us p {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .best-place .headings{
+        margin-top: 50px;
+        font-size: 22px;
+        width: 85%;
+    }
+
+    .best-place hr {
+        font-weight: bold;
+        width: 24%;
+    }
+
+    .best-place .info .paragraph {
+        font-size: 16px;
+        width: 85%;
+    }
+
+    .best-place .views{
+        display: unset;
+        width: 100%;
+    }
+
+    .best-place .views img {
+        max-width: 100%;
+        padding: 10px 6px;
+        width: 92%;
+    }
+
+    main #second-heading {
+        width: 90%;
+        margin-top: 400px;
+        font-size: 20px;
+    }
+
+    .why-us {
+        display: unset;
+    }
+
+    .why-us article {
+        width: 100%;
+    }
+
+    .why-us .text-container p {
+        margin-bottom: 30px;
+    }
+
+    .team-presenting{
+        padding-bottom: 10px;
+        margin-bottom: 0;
+    }
+
+    .team-presenting .headings:last-of-type {
+        margin-top: 30px;
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .team-presenting .our-team {
+        display: unset;
+    }
+
+    .team-presenting .our-team article{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 25px;
+    }
+    .team-presenting .our-team img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
