@@ -1,0 +1,117 @@
+@media screen and (max-width: 480px) {
+    header .div-header {
+        display: none;
+    }
+
+    header .options {
+        flex-flow: column;
+    }
+
+    header .options > article {
+        width: 100%;
+    }
+
+    header .options > article > h4 {
+        text-align: center;
+    }
+
+    header .options > article > a {
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    main h2 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    main .gallery {
+        flex-flow: column;
+        padding-bottom: 50px;
+    }
+
+    main .gallery > article {
+        display: block;
+        text-align: center;
+    }
+
+    main .gallery > article img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+
+    main .gallery article a {
+        margin: 0;
+    }
+
+    main .gallery article p {
+        margin-top: 20px;
+    }
+
+    main {
+        max-width: 100%;
+    }
+
+    main .blog .blog-title h4 span,
+    main .blog .blog-title a {
+        display: none;
+    }
+
+    main .blog .blog-title {
+        padding: 0;
+        width: 100%;
+    }
+
+    main .blog .blog-title h4 {
+        display: block;
+        margin: 0 auto;
+        font-size: 1.3em;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    main .blog article img {
+        display: none;
+    }
+
+    main .blog article {
+        display: flex;
+        justify-content: center;
+    }
+
+    main .blog article #about-blog {
+        width: 85%;
+    }
+
+    main .magazine .magazine-title {
+        width: 100%;
+        padding: 0;
+    }
+
+    main .magazine .magazine-title a {
+        display: none;
+    }
+
+    main .magazine .magazine-title h4 {
+        font-size: 1.5em;
+    }
+
+    main .magazine article {
+        display: unset;
+    }
+
+    main .magazine article #magazine-img {
+        padding: 0;
+    }
+
+    main .magazine article .magazine-info {
+        margin: 0;
+    }
+    main .magazine article .magazine-info img {
+        width: 100%;
+    }
+
+}
