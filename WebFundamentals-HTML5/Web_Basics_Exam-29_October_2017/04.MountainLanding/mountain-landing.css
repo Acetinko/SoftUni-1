@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", "Montserrat", sans-serif;
+    font-size: 24px;
+}
+
+header {
+    background: url("images/header.jpg");
+}
+
+header > img {
+    margin-top: 100px;
+    margin-left: 452px;
+}
+
+header > nav {
+    float: right;
+    margin-top: 100px;
+    margin-right: 400px;
+}
+
+header > nav > ul {
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+}
+
+header > nav > ul li {
+    margin: 0 10px;
+}
+
+header > nav > ul > li a {
+    color: #FFFFFF;
+    font-size: 0.9em;
+    text-decoration: none;
+
+}
+
+header > h1 {
+    display: block;
+    margin: 0 35%;
+    margin-top: 180px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+header > h1 > span {
+    display: block;
+    margin-top: -10px;
+}
+
+header > p {
+    margin-bottom: 10px;
+    font-size: 0.6em;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+
+header > div {
+    margin-top: 60px;
+    padding-bottom: 115px;
+    display: flex;
+    justify-content: center;
+}
+
+header > div > button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 2px;
+    background: #CABC9A;
+    color: white;
+    text-transform: uppercase;
+}
+
+main > h2 {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+main > p {
+    text-align: center;
+    color: #7a7a7a;
+}
+
+body > main > p:nth-child(3) {
+    margin: 80px 0;
+    padding: 0 348px;
+    font-size: 0.7em;
+}
+
+body > main > p:nth-child(2), body > main > p:nth-child(6) {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 0.8em;
+    margin-bottom: 60px;
+}
+
+main .about {
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    background: #FCFCFC;
+}
+
+main .about > article {
+    width: 25%;
+    margin: 0 auto;
+}
+
+main .about > article > div {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+main .about > article > div img {
+    width: 25%;
+    height: 100%;
+}
+
+main .about > article h3 {
+    text-align: center;
+}
+
+main .about > article p {
+    margin-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #7a7a7a;
+    font-size: 0.9em;
+}
+
+main .team {
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    margin: 0 200px;
+}
+
+main .team article {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main .team article > div {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+main .team article img {
+    width: 280px;
+    height: 70%;
+}
+
+main .team > article h3 {
+    margin-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main .team > article p {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: #7a7a7a;
+    width: 99%;
+    font-size: 0.9em;
+}
+
+footer {
+    background: #FCFCFC;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+footer > h2 {
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+footer > p {
+    margin-top: 10px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-style: italic;
+    color: #7a7a7a;
+    font-size: 0.9em;
+}
+
+footer > section {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+footer > section > article {
+    display: flex;
+    max-width: 100%;
+    margin: 0 25px;
+}
+
+footer > section > article div {
+    max-width: 100%;
+}
+
+footer > section > article img {
+    width: 300px;
+    height: 330px;
+}
+
+footer .description {
+    background: white;
+    padding: 30px 45px;
+}
+
+footer .description > h3 {
+    color: #7a7a7a;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+footer .description > h3 > span {
+    display: block;
+}
+
+footer .description > p {
+    margin-top: 20px;
+    color: #7a7a7a;
+    font-size: 0.8em;
+    font-weight: 400;
+    width: 210px;
+    font-family: "Montserrat", sans-serif;
+}
