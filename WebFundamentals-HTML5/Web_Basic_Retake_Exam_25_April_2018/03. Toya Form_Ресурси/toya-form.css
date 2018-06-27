@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background: #9ACB34;
+    width: 100%;
+    color: white;
+    margin-bottom: 90px;
+}
+
+header h1 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+header p {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+main .info {
+    margin-bottom: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+main .info article {
+    padding: 0 20px;
+}
+
+main .info article h2 {
+    color: #9ACB34;
+    font-size: 1.1em;
+}
+
+main .info article p {
+    color: #9C9C9C;
+    font-size: 1.1rem;
+}
+
+
+main .map-form {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 100%;
+}
+
+main .map-form .box-map {
+    width: 30%;
+}
+
+main .map-form .box-map img {
+    width: 100%;
+    height: 100%;
+}
+
+main .map-form .box-map p {
+    width: 80%;
+    font-size: 0.7rem;
+    color: #9C9C9C;
+    text-align: center;
+}
+
+main .map-form .box-map p > span {
+    color: #9ACB34;
+}
+
+main .map-form .box-map {
+    width: 25%;
+    padding-top: 24px;
+    margin-right: 30px;
+}
+
+main .map-form form {
+    width: 40%;
+}
+
+main .map-form form > div {
+    display: flex;
+    flex-flow: row;
+}
+main .map-form form > div label {
+    margin-right: 15px;
+}
+
+main .map-form form input {
+    margin-top: 10px;
+    padding: 5px 0;
+    padding-right: 24px;
+    padding-left: 5px;
+}
+
+main .map-form .form-pass {
+    margin: 20px 0;
+}
+
+main .map-form form p {
+    color: #9C9C9C;
+    font-size: 0.7rem;
+}
+
+main .map-form button{
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    background: #9ACB34;
+    border: none;
+    margin-top: 10px;
+}
