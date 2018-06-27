@@ -27,12 +27,14 @@ header h1 {
 header p {
     padding-bottom: 40px;
     text-align: center;
+    font-size: 1.1rem;
 }
 
 main {
     width: 100%;
     display: flex;
     flex-flow: column;
+    padding-bottom: 100px;
 }
 
 main .info {
@@ -58,12 +60,11 @@ main .info article p {
     font-size: 1.1rem;
 }
 
-
 main .map-form {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    width: 100%;
+    margin: 0 70px;
 }
 
 main .map-form .box-map {
@@ -72,11 +73,11 @@ main .map-form .box-map {
 
 main .map-form .box-map img {
     width: 100%;
-    height: 100%;
+    height: 88%;
 }
 
 main .map-form .box-map p {
-    width: 80%;
+    padding: 5px;
     font-size: 0.7rem;
     color: #9C9C9C;
     text-align: center;
@@ -93,26 +94,35 @@ main .map-form .box-map {
 }
 
 main .map-form form {
-    width: 40%;
+    width: 430px;
 }
 
 main .map-form form > div {
     display: flex;
     flex-flow: row;
+    margin-right: 2px;
 }
+
 main .map-form form > div label {
-    margin-right: 15px;
+    margin-right: 22px;
 }
 
 main .map-form form input {
-    margin-top: 10px;
+    margin-top: -6px;
     padding: 5px 0;
-    padding-right: 24px;
-    padding-left: 5px;
+    padding-right: 25px;
+    padding-left: 5px;;
 }
 
 main .map-form .form-pass {
-    margin: 20px 0;
+    margin: 30px 0;
+}
+
+main .map-form > form .fa {
+    position: relative;
+    left: 182px;
+    top: 18px;
+    color: #9C9C9C;
 }
 
 main .map-form form p {
@@ -120,7 +130,12 @@ main .map-form form p {
     font-size: 0.7rem;
 }
 
-main .map-form button{
+main .map-form .form-message textarea {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+main .map-form button {
     display: block;
     padding: 5px 10px;
     color: white;
