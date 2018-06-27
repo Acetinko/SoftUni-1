@@ -7,6 +7,18 @@
         flex-flow: column;
     }
 
+    header h3 {
+        font-size: 0.9em;
+    }
+
+    header h1 {
+        font-size: 1.6em;
+    }
+
+    header .button-header {
+        margin-bottom: 40px;
+    }
+
     header .options > article {
         width: 100%;
     }
@@ -52,7 +64,15 @@
     }
 
     main {
-        max-width: 100%;
+        width: 100%;
+    }
+
+    main .blog #about-blog > h3{
+        font-size: 0.9em;
+    }
+
+    main .blog #about-blog > p{
+        font-size: 0.8rem;
     }
 
     main .blog .blog-title h4 span,
@@ -83,7 +103,7 @@
     }
 
     main .blog article #about-blog {
-        width: 85%;
+        width: 95%;
     }
 
     main .magazine .magazine-title {
@@ -96,22 +116,54 @@
     }
 
     main .magazine .magazine-title h4 {
-        font-size: 1.5em;
+        font-size: 1.4em;
+        padding-left: 10px;
     }
 
     main .magazine article {
-        display: unset;
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 
     main .magazine article #magazine-img {
         padding: 0;
+        border: none;
     }
 
     main .magazine article .magazine-info {
+        width: 100%;
         margin: 0;
+        text-align: center;
     }
     main .magazine article .magazine-info img {
         width: 100%;
     }
 
+    main .magazine .magazine-info h2 {
+        margin-bottom: 20px;
+    }
+
+    main .magazine .magazine-info h3,
+    main .magazine .magazine-info p {
+        margin: 20px 0;
+    }
+
+    main > footer {
+        flex-flow: column;
+    }
+
+    main > footer {
+        margin-top: 10px;
+        font-size: 1.3em;
+    }
+
+    main > footer .icons {
+        display: flex;
+        flex-flow: column;
+    }
+
+    main > footer .icons a {
+        margin: 8px 0;
+    }
 }
