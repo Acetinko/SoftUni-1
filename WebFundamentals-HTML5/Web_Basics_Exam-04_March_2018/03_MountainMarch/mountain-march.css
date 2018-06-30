@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+main {
+    margin-top: 40px;
+    width: 60%;
+    height: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+article {
+    width: 50%;
+}
+
+.first-article {
+    color: white;
+    text-align: center;
+    background: linear-gradient(rgba(203, 149, 197, 0.20), rgba(203, 149, 197, 0.80)), url("img/peak.jpg"), center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.first-article h1 {
+    margin-top: 45px;
+    font-size: 2.2em;
+}
+
+.first-article p {
+    margin-top: 295px;
+    font-size: 1.3rem;
+}
+
+.first-article p .fa {
+    padding-top: 10px;
+    display: block;
+}
+
+.second-article {
+    border: 2px solid #892064;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.second-article > span .fa {
+    margin-top: 5px;
+    margin-right: 10px;
+    float: right;
+    color: #892064;
+    font-size: 1.4em;
+}
+
+.second-article > form {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 25%;
+}
+
+.second-article > form label {
+    color: darkgray;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+.second-article > form input {
+    font-size: 1.1em;
+    border: none;
+    border-bottom: 1px solid #96A1AD;
+}
+
+.second-article > form .buttons{
+    display: flex;
+    margin-top: 25px;
+}
+
+.second-article > form .buttons button{
+    padding: 8px 10px;
+    border-radius: 20px;
+    background: #892064;
+    border: none;
+    margin-right: 6px;
+    color: white;
+}
+.second-article > form .buttons p{
+    margin-top: 3px;
+}
+.second-article > form .buttons p > span{
+    color: #892064;
+}
+
+
+
