@@ -62,7 +62,7 @@ article {
 
 .second-article > form {
     margin: auto;
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-flow: column;
     margin-top: 25%;
@@ -80,24 +80,29 @@ article {
     border-bottom: 1px solid #96A1AD;
 }
 
-.second-article > form .buttons{
+.second-article > form .buttons {
     display: flex;
+    margin: auto;
     margin-top: 25px;
 }
 
-.second-article > form .buttons button{
-    padding: 8px 10px;
+.second-article > form .buttons button {
+    padding: 8px 12px;
     border-radius: 20px;
     background: #892064;
     border: none;
     margin-right: 6px;
     color: white;
+    font-size: 1.0em;
 }
-.second-article > form .buttons p{
-    margin-top: 3px;
+
+.second-article > form .buttons p {
+    margin-top: 5px;
 }
-.second-article > form .buttons p > span{
+
+.second-article > form .buttons p > span {
     color: #892064;
+    text-shadow: 1px 1px #969696;
 }
 
 

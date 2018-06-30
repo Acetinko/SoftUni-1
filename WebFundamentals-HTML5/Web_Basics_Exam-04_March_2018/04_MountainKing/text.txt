@@ -5,6 +5,7 @@ This is a simple hero unit, a simple jumbotron-style component for
 calling extra attention to featured content or information.
 
 Learn more Download
+
 Consectetur Risus
 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
@@ -22,6 +23,6 @@ Old Clients
 
 New Clients
 
-© 2018 Software University. Designed and Developed by SoftUni
+ï¿½ 2018 Software University. Designed and Developed by SoftUni
 
   
