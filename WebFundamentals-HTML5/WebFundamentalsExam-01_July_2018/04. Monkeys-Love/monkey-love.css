@@ -1,0 +1,181 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header > nav {
+    background: #FFFFFF;
+    padding: 10px 0;
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header > nav > ul li {
+    margin: 0 20px;
+
+}
+
+header > nav > ul a {
+    text-decoration: none;
+    color: #F05F40;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+header .first-section-header {
+    background: url(img/header.png) center;
+    background-size: cover;
+    height: 25em;
+}
+
+header .first-section-header h1 {
+    padding-top: 4em;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.9em;
+}
+
+
+header .first-section-header h5 {
+    border-bottom: 2px solid #F05F40;
+    text-align: center;
+    width: 3%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+header .first-section-header p {
+    color: #B8B8B6;
+    text-align: center;
+    margin-top: 35px;
+    padding: 0 28%;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+header .second-section-header {
+    text-align: center;
+    background: #F05F40;
+    height: 20em;
+}
+
+header .second-section-header h2 {
+    color: #FFFFFF;
+    padding-top: 4%;
+    font-weight: 100;
+    font-size: 1.9em;
+}
+
+
+
+header .second-section-header h5 {
+    border-bottom: 2px solid #FFFFFF;
+    text-align: center;
+    width: 3%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+header .second-section-header p {
+    color: #B8B8B6;
+    padding: 0 25%;
+}
+
+header button {
+    margin-top: 1.8em;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    background: #F8F9FB;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+header button:hover {
+    cursor: pointer;
+    background: #E2E6EA;
+}
+
+main h2 {
+    padding-top: 2em;
+    text-align: center;
+    font-weight: 100;
+}
+
+main h5 {
+    border-bottom: 2px solid #F05F40;
+    text-align: center;
+    width: 3%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+main .first-main-section {
+    margin: 0 200px;
+    margin-top: 3em;
+    display: flex;
+    text-align: center;
+}
+
+main .first-main-section article {
+    width: 13em;
+    margin: auto;
+}
+
+main .first-main-section .fa {
+    color: #F05F40;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+main .first-main-section h3 {
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+main .first-main-section p {
+    color: #B8B8B6;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+
+main .second-main-section {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #F05F40;
+    border-bottom: 2px solid #F05F40;
+}
+
+main .second-main-section img {
+    margin: 0 20px;
+    width: 27em;
+    border: 2px solid #F05F40;
+    height: 18em;
+}
+
+footer {
+    margin: 10px 0;
+}
+
+footer > p {
+    text-align: center;
+    color: #2A2A2C;
+}
+
+footer > p > span {
+    color: #F05F40;
+}
+
+

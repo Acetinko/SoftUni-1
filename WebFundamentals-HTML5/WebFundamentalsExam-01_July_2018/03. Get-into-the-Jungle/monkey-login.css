@@ -1,0 +1,140 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to left, rgb(241, 222, 189), rgb(161, 106, 93));
+
+}
+
+main {
+    margin: 2% 20%;
+    padding: 5% 8%;
+    display: flex;
+    box-shadow: 0 3px 9px #FAEBC8;
+    border-radius: 10px;
+    background: #FFFFFF;
+    height: 24em;
+}
+
+main section {
+    margin: 0 1%;
+}
+
+main .second-section h1 {
+    color: #333333;
+    text-align: center;
+    font-weight: 100;
+}
+
+.first-section {
+    width: 50%;
+    margin-top: 8%;
+    margin-right: 8%;
+}
+
+.first-section img {
+    width: 100%;
+}
+
+.second-section {
+    width: 50%;
+    margin-left: 8%;
+    display: flex;
+    flex-flow: column;
+}
+
+.second-section .user {
+    display: flex;
+    flex-flow: column;
+    margin-top: 4%;
+}
+
+.second-section .fa {
+    position: relative;
+    top: 30px;
+    left: 7%;
+    color: gray;
+    font-size: 0.9em;
+}
+
+.second-section .user input {
+    background: #E6E6E6;
+    border: none;
+    border-radius: 30px;
+    padding: 5% 19%;
+    margin: 0 0;
+    width: 60%;
+}
+
+.first-div {
+    margin-top: 9em;
+}
+
+.first-div .radio-button {
+    display: flex;
+    flex-flow: column;
+    margin: 4% 0;
+    padding-left: 6%;
+}
+
+.first-div .radio-button label {
+    margin-bottom: 0.4rem;
+    display: flex;
+}
+
+.first-div .radio-button span {
+    color: gray;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.2em;
+    font-size: 0.8em;
+}
+
+.first-div .radio-button input {
+
+}
+
+.btn button {
+    color: white;
+    background: #8E6B52;
+    border: none;
+    border-radius: 30px;
+    padding: 5% 19%;
+    width: 100%;
+    /* font-weight: 800; */
+    font-size: 0.8em;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #5E4736;
+}
+
+.second-div {
+    margin-top: 10px;
+}
+
+.second-section .second-div {
+    color: gray;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.second-section .second-div span {
+    border-bottom: 1px solid;
+    font-weight: bold;
+}
+
+body > main > section.second-section > div.second-div > p:nth-child(2) {
+    margin-top: 55px;
+}
+body > main > section.second-section > div.first-div > form > label > div {
+display: flex;
+    border: 4px solid #E6E6E6;
+    border-radius: 100%;
+}

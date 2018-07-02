@@ -1,0 +1,75 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #FAEBC8;
+}
+
+section {
+    background: white;
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    border-radius: 10px;
+    margin: 3% 6%;
+    padding: 0 8%;
+}
+
+section > article {
+    margin-top: 4%;
+}
+
+section > article img {
+    width: 5.5em;
+    margin-bottom: 1.8em;
+}
+
+section > article h2 {
+    margin-bottom: 1.0em;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+section > article p {
+    text-align: left;
+    font-size: 1.0em;
+    height: 12em;
+}
+
+section > article:nth-child(1) > p {
+    padding: 0 90px;
+}
+
+section > article:nth-child(1) > h4 {
+    margin-left: 22%;
+}
+
+section > article:nth-child(2) > p {
+    padding: 0 43px;
+}
+
+section > article:nth-child(2) > h4 {
+    margin-left: 12%;
+}
+
+section > article:nth-child(3) > p {
+    padding: 0 71px;
+}
+
+section > article:nth-child(3) > h4 {
+    margin-left: 20%;
+}
+
+section > article h4 {
+    color: #95584E;
+    margin-top: 1.02em;
+    font-style: italic;
+    text-align: left;
+    padding-bottom: 60px;
+    text-shadow: 11px 16px 1px lightslategrey;
+}
