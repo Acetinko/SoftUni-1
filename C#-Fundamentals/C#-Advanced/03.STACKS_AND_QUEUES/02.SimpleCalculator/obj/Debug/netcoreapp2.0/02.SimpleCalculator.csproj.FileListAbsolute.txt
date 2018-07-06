@@ -1,0 +1,10 @@
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\02.SimpleCalculator\bin\Debug\netcoreapp2.0\02.SimpleCalculator.deps.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\02.SimpleCalculator\bin\Debug\netcoreapp2.0\02.SimpleCalculator.runtimeconfig.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\02.SimpleCalculator\bin\Debug\netcoreapp2.0\02.SimpleCalculator.runtimeconfig.dev.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\02.SimpleCalculator\bin\Debug\netcoreapp2.0\02.SimpleCalculator.dll
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\02.SimpleCalculator\bin\Debug\netcoreapp2.0\02.SimpleCalculator.pdb
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\02.SimpleCalculator\obj\Debug\netcoreapp2.0\02.SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\02.SimpleCalculator\obj\Debug\netcoreapp2.0\02.SimpleCalculator.AssemblyInfoInputs.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\02.SimpleCalculator\obj\Debug\netcoreapp2.0\02.SimpleCalculator.AssemblyInfo.cs
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\02.SimpleCalculator\obj\Debug\netcoreapp2.0\02.SimpleCalculator.dll
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\02.SimpleCalculator\obj\Debug\netcoreapp2.0\02.SimpleCalculator.pdb

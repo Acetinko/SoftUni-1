@@ -1,0 +1,11 @@
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\06.TrafficLight\bin\Debug\netcoreapp2.0\06.TrafficLight.deps.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\06.TrafficLight\bin\Debug\netcoreapp2.0\06.TrafficLight.runtimeconfig.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\06.TrafficLight\bin\Debug\netcoreapp2.0\06.TrafficLight.runtimeconfig.dev.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\06.TrafficLight\bin\Debug\netcoreapp2.0\06.TrafficLight.dll
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\06.TrafficLight\bin\Debug\netcoreapp2.0\06.TrafficLight.pdb
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\06.TrafficLight\obj\Debug\netcoreapp2.0\06.TrafficLight.csprojAssemblyReference.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\06.TrafficLight\obj\Debug\netcoreapp2.0\06.TrafficLight.csproj.CoreCompileInputs.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\06.TrafficLight\obj\Debug\netcoreapp2.0\06.TrafficLight.AssemblyInfoInputs.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\06.TrafficLight\obj\Debug\netcoreapp2.0\06.TrafficLight.AssemblyInfo.cs
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\06.TrafficLight\obj\Debug\netcoreapp2.0\06.TrafficLight.dll
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\03.STACKS_AND_QUEUES\06.TrafficLight\obj\Debug\netcoreapp2.0\06.TrafficLight.pdb

@@ -1,0 +1,20 @@
+pass: Texp3804
+-Манипулации на данни?
+--user authentication
+--user: RU
+--chirp: CRD
+
+-Рутиране и бизнес логике?
+--login(#/)
+--register(#/register)
+--main feed(#/home)
+--my feed(#/feed)
+--user feed(#/feed/:userId)
+--discovery(#/discovery)
+
+-Шаблони (темплейти)?
+--main feed + my feed + user feed
+--create form
+--chirp(+create action)
+--chirp(+delete action)
+--discovery

@@ -1,0 +1,10 @@
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\06.TruckTour\bin\Debug\netcoreapp2.0\06.TruckTour.deps.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\06.TruckTour\bin\Debug\netcoreapp2.0\06.TruckTour.runtimeconfig.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\06.TruckTour\bin\Debug\netcoreapp2.0\06.TruckTour.runtimeconfig.dev.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\06.TruckTour\bin\Debug\netcoreapp2.0\06.TruckTour.dll
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\06.TruckTour\bin\Debug\netcoreapp2.0\06.TruckTour.pdb
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\06.TruckTour\obj\Debug\netcoreapp2.0\06.TruckTour.csproj.CoreCompileInputs.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\06.TruckTour\obj\Debug\netcoreapp2.0\06.TruckTour.AssemblyInfoInputs.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\06.TruckTour\obj\Debug\netcoreapp2.0\06.TruckTour.AssemblyInfo.cs
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\06.TruckTour\obj\Debug\netcoreapp2.0\06.TruckTour.dll
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\06.TruckTour\obj\Debug\netcoreapp2.0\06.TruckTour.pdb
