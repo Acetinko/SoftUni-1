@@ -1,9 +1,0 @@
-npm install --save-exact bootstrap
-npm install --save-exact jquery
-npm install --save-exact handlebars
-npm install --save-exact sammy
-
-За <form id="formLogin"> и <form id="formRegister"> добавяме:
-action="#/....." method="post"
-<form id="formLogin" action="#/login" method="post">
-<form id="formRegister" action="#/register" method="post">
