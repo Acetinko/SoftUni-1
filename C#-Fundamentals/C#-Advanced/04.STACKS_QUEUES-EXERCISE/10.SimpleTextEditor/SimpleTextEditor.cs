@@ -10,7 +10,6 @@ class SimpleTextEditor
         int commandsCount = int.Parse(Console.ReadLine());
 
         var oldVersions = new Stack<string>();
-        oldVersions.Push("");
         var text = new StringBuilder();
 
         for (int i = 0; i < commandsCount; i++)
