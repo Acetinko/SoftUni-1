@@ -8,3 +8,4 @@ C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\10.Sim
 C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\10.SimpleTextEditor\obj\Debug\netcoreapp2.0\10.SimpleTextEditor.AssemblyInfo.cs
 C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\10.SimpleTextEditor\obj\Debug\netcoreapp2.0\10.SimpleTextEditor.dll
 C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\10.SimpleTextEditor\obj\Debug\netcoreapp2.0\10.SimpleTextEditor.pdb
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\04.STACKS_QUEUES-EXERCISE\10.SimpleTextEditor\obj\Debug\netcoreapp2.0\10.SimpleTextEditor.csprojAssemblyReference.cache

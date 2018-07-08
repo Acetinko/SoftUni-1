@@ -1,0 +1,11 @@
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS\04.PascalTriangle\bin\Debug\netcoreapp2.0\04.PascalTriangle.deps.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS\04.PascalTriangle\bin\Debug\netcoreapp2.0\04.PascalTriangle.runtimeconfig.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS\04.PascalTriangle\bin\Debug\netcoreapp2.0\04.PascalTriangle.runtimeconfig.dev.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS\04.PascalTriangle\bin\Debug\netcoreapp2.0\04.PascalTriangle.dll
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS\04.PascalTriangle\bin\Debug\netcoreapp2.0\04.PascalTriangle.pdb
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS\04.PascalTriangle\obj\Debug\netcoreapp2.0\04.PascalTriangle.csprojAssemblyReference.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS\04.PascalTriangle\obj\Debug\netcoreapp2.0\04.PascalTriangle.csproj.CoreCompileInputs.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS\04.PascalTriangle\obj\Debug\netcoreapp2.0\04.PascalTriangle.AssemblyInfoInputs.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS\04.PascalTriangle\obj\Debug\netcoreapp2.0\04.PascalTriangle.AssemblyInfo.cs
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS\04.PascalTriangle\obj\Debug\netcoreapp2.0\04.PascalTriangle.dll
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS\04.PascalTriangle\obj\Debug\netcoreapp2.0\04.PascalTriangle.pdb
