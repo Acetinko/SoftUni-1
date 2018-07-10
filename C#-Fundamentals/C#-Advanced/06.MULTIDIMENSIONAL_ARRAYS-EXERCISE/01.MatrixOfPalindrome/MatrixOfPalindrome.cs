@@ -5,13 +5,12 @@ class MatrixOfPalindrome
 {
     static void Main()
     {
-        int[] input = "4 6"//Console.ReadLine()
-            .Split(" ")
+        int[] input = Console.ReadLine()
+            .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
             .Select(int.Parse)
             .ToArray();
 
-        int r = input[0];
-        int c = input[1];
+        int r = input[0], c = input[1];
 
         if (r + c > 27)
         {
@@ -19,14 +18,30 @@ class MatrixOfPalindrome
         }
 
         string[,] matrix = new string[r, c];
-        char[] chArr = new char[3] { 'a', 'a', 'a' };
 
         for (int row = 0; row < matrix.GetLength(0); row++)
         {
             for (int col = 0; col < matrix.GetLength(1); col++)
             {
-                //Console.WriteLine();
-                matrix[row,col] = $"{col + chArr[0]}{col + chArr[1]}{col + chArr[2]}";
+                matrix[row, col] =
+                    ((char)('a' + row)).ToString() +
+                    (char)('a' + row + col) +
+                    (char)('a' + row);
+            }
+        }
+
+        for (int row = 0; row < matrix.GetLength(0); row++)
+        {
+            for (int col = 0; col < matrix.GetLength(1); col++)
+            {
+                Console.Write(matrix[row, col]);
+
+                if (col < matrix.GetLength(1) - 1)
+                {
+                    Console.Write(" ");
+                    continue;
+                }
+                Console.WriteLine();
             }
         }
     }

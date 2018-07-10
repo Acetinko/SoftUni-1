@@ -1,0 +1,11 @@
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\02.DiagonalDifference\bin\Debug\netcoreapp2.0\02.DiagonalDifference.deps.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\02.DiagonalDifference\bin\Debug\netcoreapp2.0\02.DiagonalDifference.runtimeconfig.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\02.DiagonalDifference\bin\Debug\netcoreapp2.0\02.DiagonalDifference.runtimeconfig.dev.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\02.DiagonalDifference\bin\Debug\netcoreapp2.0\02.DiagonalDifference.dll
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\02.DiagonalDifference\bin\Debug\netcoreapp2.0\02.DiagonalDifference.pdb
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\02.DiagonalDifference\obj\Debug\netcoreapp2.0\02.DiagonalDifference.csprojAssemblyReference.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\02.DiagonalDifference\obj\Debug\netcoreapp2.0\02.DiagonalDifference.csproj.CoreCompileInputs.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\02.DiagonalDifference\obj\Debug\netcoreapp2.0\02.DiagonalDifference.AssemblyInfoInputs.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\02.DiagonalDifference\obj\Debug\netcoreapp2.0\02.DiagonalDifference.AssemblyInfo.cs
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\02.DiagonalDifference\obj\Debug\netcoreapp2.0\02.DiagonalDifference.dll
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\02.DiagonalDifference\obj\Debug\netcoreapp2.0\02.DiagonalDifference.pdb

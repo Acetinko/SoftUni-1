@@ -8,3 +8,14 @@ C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS-EXERC
 C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\obj\Debug\netcoreapp2.0\01.MatrixOfPalindrome.AssemblyInfo.cs
 C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\obj\Debug\netcoreapp2.0\01.MatrixOfPalindrome.dll
 C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\05.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\obj\Debug\netcoreapp2.0\01.MatrixOfPalindrome.pdb
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\bin\Debug\netcoreapp2.0\01.MatrixOfPalindrome.deps.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\bin\Debug\netcoreapp2.0\01.MatrixOfPalindrome.runtimeconfig.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\bin\Debug\netcoreapp2.0\01.MatrixOfPalindrome.runtimeconfig.dev.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\bin\Debug\netcoreapp2.0\01.MatrixOfPalindrome.dll
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\bin\Debug\netcoreapp2.0\01.MatrixOfPalindrome.pdb
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\obj\Debug\netcoreapp2.0\01.MatrixOfPalindrome.csprojAssemblyReference.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\obj\Debug\netcoreapp2.0\01.MatrixOfPalindrome.csproj.CoreCompileInputs.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\obj\Debug\netcoreapp2.0\01.MatrixOfPalindrome.AssemblyInfoInputs.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\obj\Debug\netcoreapp2.0\01.MatrixOfPalindrome.AssemblyInfo.cs
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\obj\Debug\netcoreapp2.0\01.MatrixOfPalindrome.dll
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\01.MatrixOfPalindrome\obj\Debug\netcoreapp2.0\01.MatrixOfPalindrome.pdb
