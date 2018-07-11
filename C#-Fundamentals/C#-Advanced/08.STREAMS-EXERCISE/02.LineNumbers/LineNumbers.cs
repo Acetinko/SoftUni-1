@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-class OddLines
+class LineNumbers
 {
     static void Main()
     {
@@ -9,17 +9,17 @@ class OddLines
 
         using (reader)
         {
+            StreamWriter writer = new StreamWriter("../../../output.txt");
+
             string line;
             int lineNumber = 0;
 
             while ((line = reader.ReadLine()) != null)
             {
-                if (lineNumber % 2 != 0)
-                {
-                    Console.WriteLine(line);
-                }
-                lineNumber++;
+                ++lineNumber;
+                writer.Write($"Line{lineNumber}: {line}");
             }
+            writer.WriteLine();
         }
     }
 }
