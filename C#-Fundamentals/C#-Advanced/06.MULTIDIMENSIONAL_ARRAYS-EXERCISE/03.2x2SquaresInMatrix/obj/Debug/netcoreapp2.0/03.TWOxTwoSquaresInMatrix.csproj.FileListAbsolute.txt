@@ -1,0 +1,11 @@
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\03.2x2SquaresInMatrix\bin\Debug\netcoreapp2.0\03.TWOxTwoSquaresInMatrix.deps.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\03.2x2SquaresInMatrix\bin\Debug\netcoreapp2.0\03.TWOxTwoSquaresInMatrix.runtimeconfig.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\03.2x2SquaresInMatrix\bin\Debug\netcoreapp2.0\03.TWOxTwoSquaresInMatrix.runtimeconfig.dev.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\03.2x2SquaresInMatrix\bin\Debug\netcoreapp2.0\03.TWOxTwoSquaresInMatrix.dll
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\03.2x2SquaresInMatrix\bin\Debug\netcoreapp2.0\03.TWOxTwoSquaresInMatrix.pdb
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\03.2x2SquaresInMatrix\obj\Debug\netcoreapp2.0\03.TWOxTwoSquaresInMatrix.csproj.CoreCompileInputs.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\03.2x2SquaresInMatrix\obj\Debug\netcoreapp2.0\03.TWOxTwoSquaresInMatrix.AssemblyInfoInputs.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\03.2x2SquaresInMatrix\obj\Debug\netcoreapp2.0\03.TWOxTwoSquaresInMatrix.AssemblyInfo.cs
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\03.2x2SquaresInMatrix\obj\Debug\netcoreapp2.0\03.TWOxTwoSquaresInMatrix.dll
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\03.2x2SquaresInMatrix\obj\Debug\netcoreapp2.0\03.TWOxTwoSquaresInMatrix.pdb
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\03.2x2SquaresInMatrix\obj\Debug\netcoreapp2.0\03.TWOxTwoSquaresInMatrix.csprojAssemblyReference.cache

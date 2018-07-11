@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\\01.MatrixOfPalindrome\\01.MatrixOfPalindrome.csproj",
-      "projectName": "01.MatrixOfPalindrome",
-      "projectPath": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\\01.MatrixOfPalindrome\\01.MatrixOfPalindrome.csproj",
+      "projectUniqueName": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\\02.DiagonalDifference\\02.DiagonalDifference.csproj",
+      "projectName": "02.DiagonalDifference",
+      "projectPath": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\\02.DiagonalDifference\\02.DiagonalDifference.csproj",
       "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
-      "outputPath": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\\01.MatrixOfPalindrome\\obj\\",
+      "outputPath": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\\02.DiagonalDifference\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
