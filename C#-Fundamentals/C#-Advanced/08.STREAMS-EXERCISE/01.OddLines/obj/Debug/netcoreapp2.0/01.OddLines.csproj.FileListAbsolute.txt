@@ -9,3 +9,14 @@ C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\
 C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\bin\Debug\netcoreapp2.0\01.OddLines.pdb
 C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\obj\Debug\netcoreapp2.0\01.OddLines.dll
 C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\obj\Debug\netcoreapp2.0\01.OddLines.pdb
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\bin\Debug\netcoreapp2.0\01.OddLines.deps.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\bin\Debug\netcoreapp2.0\01.OddLines.runtimeconfig.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\bin\Debug\netcoreapp2.0\01.OddLines.runtimeconfig.dev.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\bin\Debug\netcoreapp2.0\01.OddLines.dll
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\bin\Debug\netcoreapp2.0\01.OddLines.pdb
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\obj\Debug\netcoreapp2.0\01.OddLines.csprojAssemblyReference.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\obj\Debug\netcoreapp2.0\01.OddLines.csproj.CoreCompileInputs.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\obj\Debug\netcoreapp2.0\01.OddLines.AssemblyInfoInputs.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\obj\Debug\netcoreapp2.0\01.OddLines.AssemblyInfo.cs
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\obj\Debug\netcoreapp2.0\01.OddLines.dll
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\01.OddLines\obj\Debug\netcoreapp2.0\01.OddLines.pdb

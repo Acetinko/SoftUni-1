@@ -9,17 +9,17 @@ class LineNumbers
 
         using (reader)
         {
-            StreamWriter writer = new StreamWriter("../../../output.txt");
-
-            string line;
-            int lineNumber = 0;
-
-            while ((line = reader.ReadLine()) != null)
+            using (StreamWriter writer = new StreamWriter("../../../output.txt"))
             {
-                ++lineNumber;
-                writer.Write($"Line{lineNumber}: {line}");
+                string line;
+                int lineNumber = 0;
+
+                while ((line = reader.ReadLine()) != null)
+                {
+                    ++lineNumber;
+                    writer.WriteLine($"Line {lineNumber}: {line}");
+                }
             }
-            writer.WriteLine();
         }
     }
 }
