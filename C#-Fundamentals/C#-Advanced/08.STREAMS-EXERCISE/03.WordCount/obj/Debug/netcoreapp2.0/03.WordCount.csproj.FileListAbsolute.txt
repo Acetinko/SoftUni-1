@@ -9,3 +9,14 @@ D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordC
 D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\bin\Debug\netcoreapp2.0\03.WordCount.pdb
 D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\obj\Debug\netcoreapp2.0\03.WordCount.dll
 D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\obj\Debug\netcoreapp2.0\03.WordCount.pdb
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\obj\Debug\netcoreapp2.0\03.WordCount.csprojAssemblyReference.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\obj\Debug\netcoreapp2.0\03.WordCount.csproj.CoreCompileInputs.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\obj\Debug\netcoreapp2.0\03.WordCount.AssemblyInfoInputs.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\obj\Debug\netcoreapp2.0\03.WordCount.AssemblyInfo.cs
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\obj\Debug\netcoreapp2.0\03.WordCount.dll
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\obj\Debug\netcoreapp2.0\03.WordCount.pdb
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\bin\Debug\netcoreapp2.0\03.WordCount.deps.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\bin\Debug\netcoreapp2.0\03.WordCount.runtimeconfig.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\bin\Debug\netcoreapp2.0\03.WordCount.runtimeconfig.dev.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\bin\Debug\netcoreapp2.0\03.WordCount.dll
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\03.WordCount\bin\Debug\netcoreapp2.0\03.WordCount.pdb
