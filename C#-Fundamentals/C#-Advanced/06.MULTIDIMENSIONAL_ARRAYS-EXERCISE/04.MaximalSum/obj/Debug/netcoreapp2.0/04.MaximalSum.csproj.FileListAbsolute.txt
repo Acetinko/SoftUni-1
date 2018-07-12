@@ -1,0 +1,11 @@
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\04.MaximalSum\bin\Debug\netcoreapp2.0\04.MaximalSum.deps.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\04.MaximalSum\bin\Debug\netcoreapp2.0\04.MaximalSum.runtimeconfig.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\04.MaximalSum\bin\Debug\netcoreapp2.0\04.MaximalSum.runtimeconfig.dev.json
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\04.MaximalSum\bin\Debug\netcoreapp2.0\04.MaximalSum.dll
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\04.MaximalSum\bin\Debug\netcoreapp2.0\04.MaximalSum.pdb
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\04.MaximalSum\obj\Debug\netcoreapp2.0\04.MaximalSum.csprojAssemblyReference.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\04.MaximalSum\obj\Debug\netcoreapp2.0\04.MaximalSum.csproj.CoreCompileInputs.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\04.MaximalSum\obj\Debug\netcoreapp2.0\04.MaximalSum.AssemblyInfoInputs.cache
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\04.MaximalSum\obj\Debug\netcoreapp2.0\04.MaximalSum.AssemblyInfo.cs
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\04.MaximalSum\obj\Debug\netcoreapp2.0\04.MaximalSum.dll
+D:\xampp\htdocs\SoftUni\C#-Fundamentals\C#-Advanced\06.MULTIDIMENSIONAL_ARRAYS-EXERCISE\04.MaximalSum\obj\Debug\netcoreapp2.0\04.MaximalSum.pdb
