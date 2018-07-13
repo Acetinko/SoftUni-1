@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\04.CopyBinaryFile\\04.CopyBinaryFile.csproj",
+      "projectUniqueName": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\04.CopyBinaryFile\\04.CopyBinaryFile.csproj",
       "projectName": "04.CopyBinaryFile",
-      "projectPath": "C:\\Projects\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\04.CopyBinaryFile\\04.CopyBinaryFile.csproj",
+      "projectPath": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\04.CopyBinaryFile\\04.CopyBinaryFile.csproj",
       "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\04.CopyBinaryFile\\obj\\",
+      "outputPath": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\04.CopyBinaryFile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

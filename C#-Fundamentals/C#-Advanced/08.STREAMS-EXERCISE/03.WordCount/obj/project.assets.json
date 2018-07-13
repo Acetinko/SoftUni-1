@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\03.WordCount\\03.WordCount.csproj",
+      "projectUniqueName": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\03.WordCount\\03.WordCount.csproj",
       "projectName": "03.WordCount",
-      "projectPath": "C:\\Projects\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\03.WordCount\\03.WordCount.csproj",
+      "projectPath": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\03.WordCount\\03.WordCount.csproj",
       "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\03.WordCount\\obj\\",
+      "outputPath": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\03.WordCount\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
