@@ -29,7 +29,7 @@ function validate() {
     });
 
     function printValid(valid) {
-        if(isValidForm) {
+        if (isValidForm) {
             valid.css("display", "block");
             isValidForm = false;
         } else {
@@ -66,24 +66,24 @@ function validate() {
 
     function validationPassword() {
         let isConfirmPassword = false;
+        let passStr = password.val().trim();
+        let confPassStr = confirmPassword.val().trim();
 
-        let isValidationInputPass = validationInput(password.val().trim(), /^\w{5,15}$/g);
+        let isValidationInputPass = validationInput(passStr, /^\w{5,15}$/g);
         borderRedOrBlueInput(password, isValidationInputPass);
-        let isValidationInputConfPass = validationInput(password.val().trim(), /^\w{5,15}$/g);
-        borderRedOrBlueInput(confirmPassword, isValidationInputConfPass);
+        borderRedOrBlueInput(confirmPassword, isValidationInputPass);
 
-        if (isValidationInputPass && isValidationInputConfPass) {
-            isConfirmPassword = equalPassword(password.val().trim(), confirmPassword.val().trim());
+        if (isValidationInputPass) {
+            isConfirmPassword = equalPassword(passStr, confPassStr);
             borderRedOrBlueInput(confirmPassword, isConfirmPassword);
         }
 
-        return isValidationInputPass && isValidationInputConfPass && isConfirmPassword;
+        return isValidationInputPass && isConfirmPassword;
     }
 
     function validationCompanyNumber() {
-        let isValidationInput = validationInput(companyNumber.val().trim(), /^\d{4}$/g) &&
-            Number(companyNumber.val().trim()) >= 1000 &&
-            Number(companyNumber.val().trim()) <= 9999;
+        let num = Number(companyNumber.val().trim());
+        let isValidationInput = num >= 1000 && num <= 9999;
         borderRedOrBlueInput(companyNumber, isValidationInput);
 
         return isValidationInput;
@@ -98,10 +98,7 @@ function validate() {
     }
 
     function borderRedOrBlueInput(input, isValidationInput) {
-        if (isValidationInput) {
-            input.css("border", "1px solid darkblue");
-        }else {
-            input.css("border", "1px solid red");
-        }
+        let borderType = isValidationInput ? "1px solid darkblue" : "1px solid red";
+        input.css("border", borderType);
     }
 }
