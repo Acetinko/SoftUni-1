@@ -21,3 +21,4 @@ function timer() {
         isStart = false;
     });
 }
+

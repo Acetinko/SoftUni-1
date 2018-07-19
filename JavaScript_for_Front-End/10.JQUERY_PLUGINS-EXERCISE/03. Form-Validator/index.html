@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validator</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="plugin/jquery-form-validator/form-validator/theme-default.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form>
+    <div class="form-group">
+        <div class="username-group form-group">
+            <label for="username">Username</label>
+            <input id="username" type="text" class="form-control" placeholder="Username..."
+                   data-validation="length alphanumeric"
+                   data-validation-length="3-12"
+                   data-validation-error-msg="User name has to be an alphanumeric value (3-12 chars)">
+        </div>
+
+        <div class="password-group form-group">
+            <label for="password">Password</label>
+            <input id="password" type="password" class="form-control" placeholder="Password..."
+                   data-validation="length"
+                   data-validation-length="6-20"
+                   data-validation-error-msg="The password should only contain 6-20 characters.">
+        </div>
+
+        <div class="email-group form-group">
+            <label for="password">E-mail</label>
+            <input id="email" type="email" class="form-control" placeholder="E-mail..."
+                   data-validation="email"
+                   data-validation-error-msg="You have not given a correct e-mail address.">
+        </div>
+
+        <div class="form-group">
+            <label for="password">Year (yyyy-mm-dd):</label>
+            <input data-validation="date" class="form-control" data-validation-format="yyyy-mm-dd"
+                   data-validation-error-msg="You have not given a correct date.">
+        </div>
+
+        <div class="form-group" id="format-text">
+            <div class="input-group-btn">
+                <button type="button" class="btn btn-default" id="bold-btn">
+                    <span class="glyphicon glyphicon-bold"></span>
+                </button>
+                <button type="button" class="btn btn-default" id="italic-btn">
+                    <span class="glyphicon glyphicon-italic"></span>
+                </button>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <p>
+                <input type="checkbox" data-validation="required"
+                       data-validation-error-msg="You have to agree to our terms">
+                I agree to the <a href="#" target="_blank">terms of service</a>
+            </p>
+        </div>
+
+        <div class="button-group">
+            <input type="submit" class="btn btn-default" value="Validate">
+        </div>
+    </div>
+</form>
+
+<script src="plugin/jquery-form-validator/form-validator/jquery.form-validator.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

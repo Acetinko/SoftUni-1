@@ -1,0 +1,11 @@
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\04.CopyBinaryFile\bin\Debug\netcoreapp2.0\04.CopyBinaryFile.deps.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\04.CopyBinaryFile\bin\Debug\netcoreapp2.0\04.CopyBinaryFile.runtimeconfig.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\04.CopyBinaryFile\bin\Debug\netcoreapp2.0\04.CopyBinaryFile.runtimeconfig.dev.json
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\04.CopyBinaryFile\bin\Debug\netcoreapp2.0\04.CopyBinaryFile.dll
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\04.CopyBinaryFile\bin\Debug\netcoreapp2.0\04.CopyBinaryFile.pdb
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\04.CopyBinaryFile\obj\Debug\netcoreapp2.0\04.CopyBinaryFile.csprojAssemblyReference.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\04.CopyBinaryFile\obj\Debug\netcoreapp2.0\04.CopyBinaryFile.csproj.CoreCompileInputs.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\04.CopyBinaryFile\obj\Debug\netcoreapp2.0\04.CopyBinaryFile.AssemblyInfoInputs.cache
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\04.CopyBinaryFile\obj\Debug\netcoreapp2.0\04.CopyBinaryFile.AssemblyInfo.cs
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\04.CopyBinaryFile\obj\Debug\netcoreapp2.0\04.CopyBinaryFile.dll
+C:\Projects\SoftUni\C#-Fundamentals\C#-Advanced\08.STREAMS-EXERCISE\04.CopyBinaryFile\obj\Debug\netcoreapp2.0\04.CopyBinaryFile.pdb

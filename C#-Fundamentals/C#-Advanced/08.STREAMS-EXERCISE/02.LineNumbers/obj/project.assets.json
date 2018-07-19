@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\02.LineNumbers\\02.LineNumbers.csproj",
+      "projectUniqueName": "C:\\Projects\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\02.LineNumbers\\02.LineNumbers.csproj",
       "projectName": "02.LineNumbers",
-      "projectPath": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\02.LineNumbers\\02.LineNumbers.csproj",
+      "projectPath": "C:\\Projects\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\02.LineNumbers\\02.LineNumbers.csproj",
       "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
-      "outputPath": "D:\\xampp\\htdocs\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\02.LineNumbers\\obj\\",
+      "outputPath": "C:\\Projects\\SoftUni\\C#-Fundamentals\\C#-Advanced\\08.STREAMS-EXERCISE\\02.LineNumbers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
