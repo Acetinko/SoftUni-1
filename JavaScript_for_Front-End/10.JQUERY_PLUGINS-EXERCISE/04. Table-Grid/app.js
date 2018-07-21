@@ -1,1 +1,1 @@
-// TODO: Implement me
+$("#table-grid").DataTable();
