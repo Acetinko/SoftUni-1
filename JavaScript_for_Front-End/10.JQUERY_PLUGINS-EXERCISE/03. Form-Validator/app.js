@@ -1,14 +1,10 @@
 $.validate({
-    modules : 'location, date, security, file',
-    onModulesLoaded : function() {
-        $('#country').suggestCountry();
-    }
+    modules : 'date, security',
+    addValidClassOnAll: true,
+    lang: 'en'
 });
 
-// Restrict presentation length
-$('#presentation').restrictLength( $('#pres-max-length') );
-
-$('#bold-btn').click(function(ev){
+$('#bold-btn').click(function (ev) {
     let txtClass = $("div#format-text input");
     let oldNameClass = (txtClass.prop('class')).split(' ');
     let command = '';
@@ -25,7 +21,7 @@ $('#bold-btn').click(function(ev){
     txtClass.attr("class", command.trim());
 });
 
-$('#italic-btn').click(function(ev){
+$('#italic-btn').click(function (ev) {
     let txtClass = $("div#format-text input");
     let oldNameClass = (txtClass.prop('class')).split(' ');
     let command = '';
@@ -40,4 +36,18 @@ $('#italic-btn').click(function(ev){
 
     command += isItalic ? '' : " text-italic";
     txtClass.attr("class", command.trim());
+});
+
+let textBox = $('#format-text > input');
+
+textBox.on('input propertychange', function (ev) {
+    let input = ev.currentTarget.value.trim();
+
+    if (input.length > 0) {
+        textBox[0].setAttribute("data-validation", "length");
+        textBox[0].setAttribute("data-validation-length", "0-1500");
+    } else {
+        textBox[0].removeAttribute("data-validation");
+        textBox[0].removeAttribute("data-validation-length");
+    }
 });

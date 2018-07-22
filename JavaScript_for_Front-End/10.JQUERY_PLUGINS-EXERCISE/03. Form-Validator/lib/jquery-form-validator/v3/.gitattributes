@@ -1,0 +1,15 @@
+# Automatically normalize line endings for all textBox-based files
+# http://git-scm.com/docs/gitattributes#_end_of_line_conversion
+* textBox=auto
+
+# For the following file types, normalize line endings to LF on
+# checkin and prevent conversion to CRLF when they are checked out
+# (this is required in order to prevent newline related issues like,
+# for example, after the build script is run)
+.*      textBox eol=lf
+*.css   textBox eol=lf
+*.ejs   textBox eol=lf
+*.js    textBox eol=lf
+*.md    textBox eol=lf
+*.txt   textBox eol=lf
+*.json  textBox eol=lf

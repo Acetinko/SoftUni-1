@@ -7,9 +7,10 @@
     <!--Bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="plugin/jquery-form-validator/form-validator/theme-default.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="./lib/jquery-form-validator/form-validator/theme-default.min.css">
+    <script src="./lib/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="./lib/jquery-form-validator/form-validator/jquery.form-validator.min.js"></script>
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
@@ -42,7 +43,8 @@
 
         <div class="form-group">
             <label for="password">Year (yyyy-mm-dd):</label>
-            <input data-validation="date" class="form-control" data-validation-format="yyyy-mm-dd"
+            <input data-validation="date" class="form-control"
+                   data-validation-format="yyyy-mm-dd"
                    data-validation-error-msg="You have not given a correct date.">
         </div>
 
@@ -55,12 +57,13 @@
                     <span class="glyphicon glyphicon-italic"></span>
                 </button>
             </div>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" data-validation="none">
         </div>
 
         <div class="form-group">
             <p>
-                <input type="checkbox" data-validation="required"
+                <input type="checkbox"
+                       data-validation="required"
                        data-validation-error-msg="You have to agree to our terms">
                 I agree to the <a href="#" target="_blank">terms of service</a>
             </p>
@@ -71,8 +74,6 @@
         </div>
     </div>
 </form>
-
-<script src="plugin/jquery-form-validator/form-validator/jquery.form-validator.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
