@@ -26,10 +26,14 @@ thead, tfoot {
 
 .dataTables_filter label input {
     border: 2px solid #AAAAAA;
-    border-radius: 15px;
-    padding: 5px 0;
+    border-radius: 10px;
+    padding: 6px 0;
 }
 
 table.dataTable tbody tr.odd {
     background-color: #F9F9F9 !important;
+}
+
+.dataTables_info, .dataTables_paginate {
+    margin: 10px 10px;
 }
