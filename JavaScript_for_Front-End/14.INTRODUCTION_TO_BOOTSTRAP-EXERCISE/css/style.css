@@ -1,0 +1,10 @@
+@import url('https://fonts.google.com/specimen/Lato?selection.family=Lato');
+@import url('https://fonts.google.com/specimen/Catamaran?selection.family=Catamaran');
+
+body {
+    font-weight: 800;
+}
+
+.navbar{
+    background: #49494A;
+}
