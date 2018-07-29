@@ -2,9 +2,136 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+
+    <!--Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Custom CSS -->
+    <link rel="stylesheet" href="./css/style-blog.css">
+
+    <title>BLOG PAGE</title>
+
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="navbar-brand mr-auto">
+        <a class="navbar-brand" href="index.html">WELCOME TO BOOTSTRAP</a>
+    </div>
 
+    <div class="navbar-brand ml-auto">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link glyphicon-text-color" href="components.html">COMPONENTS</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="blog.html">BLOG</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <div class="container-fluid full-width-image margins">
+        <h1>Blog</h1>
+        <h2>Example blog template</h2>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="container">
+                        <h2>First blog post</h2>
+                        <p> January 1, 2016 by <span>Antonia</span> </p>
+                        <p>
+                            This blog post shows a few different types of content that's supported and styled with
+                            Bootstrap. Basic typography, images, and code are all supported.
+                        </p>
+                        <hr class="my-4">
+                        <p>
+                            Here are some blog examples. Too see more click here. Also you can find this blog template
+                            in
+                            Bootstrap official website examples if you are lazy and don't want to write so much code. If
+                            you
+                            don't find it we are sorry.
+                        </p>
+                        <p>
+                            " We can't make beautiful websites without any CSS. "
+                            <span class="full-name">Antonia Atanasova</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container">
+                        <h2>Another blog post</h2>
+                        <p>December 23, 2018 by <span>Yuliyan</span></p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet animi consequuntur,
+                            doloribus ducimus eaque eligendi expedita laborum magni minus molestias nobis non odio
+                            pariatur,
+                            quod quos ratione repellendus reprehenderit?
+                        </p>
+                        <p>
+                            " I don't want to write so much CSS, but I should because of Antonia... "
+                            <span class="full-name"> Yuliyan Ivanov</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container">
+                        <button type="button" class="btn btn-light btn-lg">Older</button>
+                        <button type="button" class="btn btn-light btn-lg">Newer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="container">
+                        <h5>About</h5>
+                        <p>
+                            We can say a lot of thing about Bootstrap but please first read the documentation and take a
+                            look at our presentation and examples.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container">
+                        <h5>Archives</h5>
+                        <p>March 2014</p>
+                        <p>February 2014</p>
+                        <p>January 2014</p>
+                        <p>December 2013</p>
+                        <p>November 2013</p>
+                        <p>October 2013</p>
+                        <p>September 2013</p>
+                        <p>August 2013</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container">
+                        <h5>Elsewhere</h5>
+                        <p>GitHub</p>
+                        <p>Twitter</p>
+                        <p>Facebook</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="page-footer font-small bg-dark">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">Copyright © аntoniyaat 2018</div>
+    <!-- Copyright -->
+</footer>
+
+
+<!--Bootstrap JS -->
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
