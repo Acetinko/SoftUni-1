@@ -1,47 +1,15 @@
-@import url('https://fonts.google.com/specimen/Lato?selection.family=Lato');
-@import url('https://fonts.google.com/specimen/Catamaran?selection.family=Catamaran');
-
-body {
-    font-weight: 800;
-}
-
-.navbar > div:nth-child(1) {
-    margin-left: 10%;
-}
-
-.navbar > div.navbar-brand.ml-auto {
-    margin-right: 10%;
-}
-
-.full-width-image {
-    height: 400px;
-    background: url("../img/bg-1.jpg") no-repeat center;
-    background-size: 100% auto;
-    color: #75707C;
-}
-
-.container-fluid > h1 {
-    padding-top: 8.8rem;
-    color: #343A40;
-    text-align: center;
-    font-size: 5.4rem;
-    font-weight: 900;
-}
-
-.container-fluid > h2 {
-    padding-top: 0.6rem;
-    color: #343A40;
-    text-align: center;
-    font-size: 3.4rem;
-    font-weight: 400;
-}
-
 .container {
     margin-top: 30px;
 }
 
 .container > div:nth-child(1) > div:nth-child(1) {
     margin: auto;
+    padding-right: 3.2rem;
+}
+
+.container > div:nth-child(1) > div:nth-child(2) {
+    margin: auto;
+    padding-left: 3.2rem;
 }
 
 .container > .row > .col h3 {
@@ -51,7 +19,7 @@ body {
 
 .container > .row > .col > p {
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .container .list-group .list-group-item {
@@ -82,6 +50,11 @@ body {
 .container > .row:nth-child(3) > .col:nth-child(2) > .jumbotron .btn {
     background: #343A40;
     border-color: #F8F9FA;
+}
+
+.container > .row > .col > .jumbotron p > span {
+    background: #F8D7DA;
+    color: red;
 }
 
 .container > .row:nth-child(2) > .col:nth-child(2) > .jumbotron,

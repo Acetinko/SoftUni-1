@@ -1,42 +1,4 @@
-@import url('https://fonts.google.com/specimen/Lato?selection.family=Lato');
-@import url('https://fonts.google.com/specimen/Catamaran?selection.family=Catamaran');
-
-body {
-    font-weight: 800;
-}
-
-body > nav > div:nth-child(1) {
-    margin-left: 10%;
-}
-
-body > nav > div.navbar-brand.ml-auto {
-    margin-right: 10%;
-}
-
-.full-width-image {
-    height: 400px;
-    background: url("../img/bg-1.jpg") no-repeat center;
-    background-size: 100% auto;
-    color: #75707C;
-}
-
-.container-fluid > h1 {
-    padding-top: 8.8rem;
-    color: #343A40;
-    text-align: center;
-    font-size: 5.4rem;
-    font-weight: 900;
-}
-
-.container-fluid > h2 {
-    padding-top: 0.6rem;
-    color: #343A40;
-    text-align: center;
-    font-size: 3.4rem;
-    font-weight: 400;
-}
-
- .container > .row  {
+.container > .row  {
     margin-top: 1.5rem;
 }
 
@@ -88,11 +50,11 @@ body > nav > div.navbar-brand.ml-auto {
     color: #E7E8E9;
 }
 
-span {
+main span {
     font-style: italic;
 }
 
-span.full-name {
+main span.full-name {
     display: block;
 }
 
