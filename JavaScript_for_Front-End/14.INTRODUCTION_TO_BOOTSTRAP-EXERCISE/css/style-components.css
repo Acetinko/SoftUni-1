@@ -38,37 +38,9 @@
     padding: 3rem 2rem;
 }
 
-.container > .row:nth-child(2) > .col:nth-child(1) > .jumbotron,
-.container > .row:nth-child(2) > .col:nth-child(3) > .jumbotron,
-.container > .row:nth-child(3) > .col:nth-child(2) > .jumbotron {
-    background: #343A40;
-    color: white;
-}
-
-.container > .row:nth-child(2) > .col:nth-child(1) > .jumbotron .btn,
-.container > .row:nth-child(2) > .col:nth-child(3) > .jumbotron .btn,
-.container > .row:nth-child(3) > .col:nth-child(2) > .jumbotron .btn {
-    background: #343A40;
-    border-color: #F8F9FA;
-}
-
-.container > .row > .col > .jumbotron p > span {
+.container > .row > .col > .jumbotron p > span.text-danger {
     background: #F8D7DA;
     color: red;
-}
-
-.container > .row:nth-child(2) > .col:nth-child(2) > .jumbotron,
-.container > .row:nth-child(3) > .col:nth-child(1) > .jumbotron,
-.container > .row:nth-child(3) > .col:nth-child(3) > .jumbotron {
-    background: #F8F9FA;
-}
-
-.container > .row:nth-child(2) > .col:nth-child(2) > .jumbotron .btn,
-.container > .row:nth-child(3) > .col:nth-child(1) > .jumbotron .btn,
-.container > .row:nth-child(3) > .col:nth-child(3) > .jumbotron .btn {
-    background: #F8F9FA;
-    border-color: #343A40;
-    color: black;
 }
 
 .footer-copyright {
