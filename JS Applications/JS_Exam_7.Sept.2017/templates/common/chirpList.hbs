@@ -1,0 +1,19 @@
+{{#each chirps}}
+    <article class="chirp">
+        <div class="titlebar">
+            <a href="#" class="chirp-author">{{author}}</a>
+            <span class="chirp-time">
+                 {{#if isAuthor}}
+                     <a href="#/chirp/del/:{{_id}}">Delete</a>
+                 {{/if}}
+                {{calcTime}}
+            </span>
+        </div>
+        <p>{{text}}</p>
+    </article>
+{{else}}
+    <div class="chirp">
+        <h2 class="titlebar">Chirps</h2>
+        <span class="loading">No chirps in database</span>
+    </div>
+{{/each}}
