@@ -6,6 +6,12 @@ $('.btn.btn-google').on('click', function (ev) {
     socialButton('http://google.com');
 });
 
+$('.dropify').dropify();
+
+$('.btn.btn-info').on('click', function (ev) {
+    swal("Good job!", "You clicked the button!", "success");
+});
+
 function socialButton(url) {
     swal({
             title: "Leave this site?",
@@ -19,8 +25,6 @@ function socialButton(url) {
         function(){
             swal();
             if (url === 'http://google.com') {
-
-                //url.log
                 href=`https://accounts.google.com/signup`;
             } else if (url === 'http://facebook.com') {
                 href=`${url}/signup`;
