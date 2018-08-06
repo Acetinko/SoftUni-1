@@ -1,43 +1,39 @@
 $('#firstName').on("change paste keyup", function () {
-    let firstName = $(this).val().trim();
-    output(firstName[0], 'firstName');
+    output($(this).val(), 'firstName');
 });
 
 $('#lastName').on("change paste keyup", function () {
-    let lastName = $(this).val().trim();
-    output(lastName, 'lastName');
+    output($(this).val(), 'lastName');
 });
 
 $('#branch').on("change paste keyup", function () {
-    let branch = $(this).val().trim();
-    output(branch, 'branch');
+    output($(this).val(), 'branch');
 });
 
 $('#company').on("change paste keyup", function () {
-    let company = $(this).val().trim();
-    output(company, 'company');
+    output($(this).val(), 'company');
 });
 
 function output(myString, type) {
-    let [fName, lName, branch, company, user] = ['', '', '', '', '', ''];
-    let print = $('#out');
+    let [firstName, lastName, branch, company] = ['', '', '', '', ''];
+    let print = $('#print');
+
     let myRegexp = /(.+)?\.(.+)?@(.+)?-(.+)?\.com/i;
     let match = myRegexp.exec(print.val());
 
     if (myString === undefined) {
         myString = '';
+    } else {
+        myString = myString.trim().toLowerCase();
     }
 
-    myString = myString.toLowerCase();
-
     if (match !== null) {
-
         if (match[1]) {
-            fName = match[1];
+            firstName = match[1];
         }
 
         if (match[2]) {
-            lName = match[2];
+            lastName = match[2];
         }
 
         if (match[3]) {
@@ -51,10 +47,10 @@ function output(myString, type) {
 
     switch (type) {
         case 'firstName':
-            fName = myString;
+            firstName = myString[0];
             break;
         case 'lastName':
-            lName = myString;
+            lastName = myString;
             break;
         case 'branch':
             branch = myString;
@@ -64,7 +60,5 @@ function output(myString, type) {
             break;
     }
 
-    user = fName + '.' + lName + '@' + branch + '-' + company + '.com';
-
-    print.val(user);
+    print.val(firstName + '.' + lastName + '@' + branch + '-' + company + '.com');
 }
