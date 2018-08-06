@@ -1,0 +1,8 @@
+main {
+    background: url("../img/hands-with-pencil-and-ruler.jpg");
+    background-size: cover;
+}
+
+.card {
+    border-width: 2px;
+}
