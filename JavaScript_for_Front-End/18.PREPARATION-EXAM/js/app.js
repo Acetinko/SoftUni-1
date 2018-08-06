@@ -1,31 +1,36 @@
 $('#firstName').on("change paste keyup", function () {
-    output($(this).val(), 'firstName');
+    output($(this).val(), this.id);
 });
 
 $('#lastName').on("change paste keyup", function () {
-    output($(this).val(), 'lastName');
+    output($(this).val(), this.id);
 });
 
 $('#branch').on("change paste keyup", function () {
-    output($(this).val(), 'branch');
+    output($(this).val(), this.id);
 });
 
 $('#company').on("change paste keyup", function () {
-    output($(this).val(), 'company');
+    output($(this).val(), this.id);
 });
 
-function output(myString, type) {
-    let [firstName, lastName, branch, company] = ['', '', '', '', ''];
+function output(inputStr, idName) {
+    let [firstName, lastName, branch, company, myString] = ['', '', '', '', '', ''];
     let print = $('#print');
+
+    if (inputStr !== undefined) {
+
+        let inputRegex = new RegExp("[a-zA-Z0-9_]+", "g");
+        let result;
+        while (result = inputRegex.exec(inputStr)) {
+            myString += result;
+        }
+
+        myString = myString.toLowerCase();
+    }
 
     let myRegexp = /(.+)?\.(.+)?@(.+)?-(.+)?\.com/i;
     let match = myRegexp.exec(print.val());
-
-    if (myString === undefined) {
-        myString = '';
-    } else {
-        myString = myString.trim().toLowerCase();
-    }
 
     if (match !== null) {
         if (match[1]) {
@@ -45,7 +50,7 @@ function output(myString, type) {
         }
     }
 
-    switch (type) {
+    switch (idName) {
         case 'firstName':
             firstName = myString[0];
             break;
