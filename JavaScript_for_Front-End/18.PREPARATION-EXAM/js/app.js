@@ -1,29 +1,21 @@
 $('#firstName').on("change paste keyup", function () {
     let firstName = $(this).val().trim();
-    if (firstName.length > 0) {
-        output(firstName[0].toLowerCase(), 'firstName');
-    }
+    output(firstName[0], 'firstName');
 });
 
 $('#lastName').on("change paste keyup", function () {
     let lastName = $(this).val().trim();
-    if (lastName.length > 0) {
-        output(lastName.toLowerCase(), 'lastName');
-    }
+    output(lastName, 'lastName');
 });
 
 $('#branch').on("change paste keyup", function () {
     let branch = $(this).val().trim();
-    if (branch.length > 0) {
-        output(branch.toLowerCase(), 'branch');
-    }
+    output(branch, 'branch');
 });
 
 $('#company').on("change paste keyup", function () {
     let company = $(this).val().trim();
-    if (company.length > 0) {
-        output(company.toLowerCase(), 'company');
-    }
+    output(company, 'company');
 });
 
 function output(myString, type) {
@@ -31,6 +23,12 @@ function output(myString, type) {
     let print = $('#out');
     let myRegexp = /(.+)?\.(.+)?@(.+)?-(.+)?\.com/i;
     let match = myRegexp.exec(print.val());
+
+    if (myString === undefined) {
+        myString = '';
+    }
+
+    myString = myString.toLowerCase();
 
     if (match !== null) {
 
