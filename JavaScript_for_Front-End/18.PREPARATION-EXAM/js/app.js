@@ -1,21 +1,21 @@
-$('#firstName').on("change paste keyup", function () {
+$('#firstName').on("keyup", function () {
     output($(this).val(), this.id);
 });
 
-$('#lastName').on("change paste keyup", function () {
+$('#lastName').on("keyup", function () {
     output($(this).val(), this.id);
 });
 
-$('#branch').on("change paste keyup", function () {
+$('#branch').on("keyup", function () {
     output($(this).val(), this.id);
 });
 
-$('#company').on("change paste keyup", function () {
+$('#company').on("keyup", function () {
     output($(this).val(), this.id);
 });
 
 function output(inputStr, idName) {
-    let [firstName, lastName, branch, company, myString] = ['', '', '', '', '', ''];
+    let [firstName, lastName, branch, company, myString] = ['', '', '', '', ''];
     let print = $('#print');
 
     if (inputStr !== undefined) {
@@ -52,7 +52,7 @@ function output(inputStr, idName) {
 
     switch (idName) {
         case 'firstName':
-            firstName = myString[0];
+            firstName = myString === '' ? myString : myString[0];
             break;
         case 'lastName':
             lastName = myString;
