@@ -1,0 +1,8 @@
+.card-header {
+    background: radial-gradient(rgba(102, 179, 188, 1), rgba(208, 189, 69, 1), rgba(50, 97, 20, 1));
+    height: 480px;
+}
+
+.container > .row > .jumbotron {
+    width: 20% !important;
+}
