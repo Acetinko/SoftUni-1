@@ -34,11 +34,13 @@ $('#login').on('click', function (ev) {
 
 $('#log').on('click', function (ev) {
     let messageElement = $('#message');
-    let check = $('.form-check-input:checked').val();
 
     if (messageElement.val().trim().length === 0) {
         return;
     }
+
+    //let check = $('.form-check-input:checked').val();
+    let check = $('.form-check-input[name=inlineRadioOptions]:checked').val();
 
     switch (check) {
         case 'success':
