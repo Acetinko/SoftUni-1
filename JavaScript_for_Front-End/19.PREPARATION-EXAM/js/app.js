@@ -1,7 +1,7 @@
 let isLogin = false;
 let username = '';
 
-$('#set').on('click', function (ev) {
+$('#login').on('click', function (ev) {
     let usernameElement = $('#username');
 
     if (usernameElement.val().trim().length === 0 && !isLogin) {
@@ -11,32 +11,44 @@ $('#set').on('click', function (ev) {
     if (isLogin) {
         isLogin = false;
         ev.target.innerText = 'Set Username';
+
+        $(ev.target).removeClass('pl-4');
+        $(ev.target).removeClass('pr-4');
+        $(ev.target).addClass('pl-2');
+        $(ev.target).addClass('pr-2');
+
         usernameElement.val('');
         username = '';
     } else {
         isLogin = true;
         ev.target.innerText = 'Logout';
+
+        $(ev.target).removeClass('pl-2');
+        $(ev.target).removeClass('pr-2');
+        $(ev.target).addClass('pl-4');
+        $(ev.target).addClass('pr-4');
+
         username = usernameElement.val();
     }
 });
 
 $('#log').on('click', function (ev) {
-
     let messageElement = $('#message');
     let check = $('.form-check-input:checked').val();
+
     if (messageElement.val().trim().length === 0) {
         return;
     }
 
     switch (check) {
         case 'success':
-            success(messageElement);
+            successLog(messageElement);
             break;
         case 'info':
-            info(messageElement);
+            infoLog(messageElement);
             break;
         case 'error':
-            error(messageElement);
+            errorLog(messageElement);
             break;
         default:
             break;
@@ -45,12 +57,13 @@ $('#log').on('click', function (ev) {
 
 $('.container .list-group').on('click', function (ev) {
     let id = ev.target.id;
+
     if (id === 'archive') {
         archiveElement(ev.target);
     }
 });
 
-function addLogElement(element, messageElement) {
+function addLogElement(message, bgColor, messageElement) {
     let messageLog = $('#messageLog');
     if (messageLog.hasClass('d-block')) {
         messageLog.removeClass('d-block');
@@ -59,39 +72,38 @@ function addLogElement(element, messageElement) {
 
     let user = username.length !== 0 ? username : 'Anonymous';
 
-    $(element).append($(`<div class="col-8 mt-auto mb-auto text-left">${messageElement.val()}</div>
+    $(`<li class="row list-group-item rounded bg-${bgColor} ml-4 mr-4 mt-2 pl-0 pr-0 pt-1 pb-1">
+                <div class="col-8 mt-auto mb-auto text-left">${message}</div>
                 <div class="border border-dark"></div>
-                <div class="col-1 p-0 m-auto">${user}</div>
+                <div class="col-1 p-0 m-auto text-center">${user}</div>
                 <div class="border border-dark"></div>
                 <div class="col-1 p-0 m-auto">
-                    <a href="#" id="archive" class="btn text-light border-0">Archive</a>
-                </div>`
-    )).appendTo($('.container .list-group'));
+                    <a href="#" id="archive" class="btn text-light border-0 m-auto text-center">Archive</a>
+                </div>
+        </li>`
+    ).appendTo($('.container .list-group'));
 
     messageElement.val('');
     $('.form-check-input').prop('checked', false).parent().removeClass('active');
 }
 
-function success(messageElement) {
-    let element = `<li class="row list-group-item rounded bg-success mt-2 h-25"></li>`;
-    addLogElement(element, messageElement);
+function successLog(messageElement) {
+    addLogElement(`Success: ${messageElement.val()}`, 'success', messageElement);
 }
 
-function info(messageElement) {
-    let element = `<li class="row list-group-item rounded bg-info mt-2 h-25"></li>`;
-    addLogElement(element, messageElement);
+function infoLog(messageElement) {
+    addLogElement(`Info: ${messageElement.val()}`, 'info', messageElement);
 }
 
-function error(messageElement) {
-    let element = `<li class="row list-group-item rounded bg-danger mt-2 h-25"></li>`;
-    addLogElement(element, messageElement);
+function errorLog(messageElement) {
+    addLogElement(`Error: ${messageElement.val()}`, 'danger', messageElement);
 }
 
 function archiveElement(element) {
-    let liElement = element.parentNode.parentNode.parentNode;
+    let ulElement = element.parentNode.parentNode.parentNode;
     element.parentNode.parentNode.remove();
 
-    if ($(liElement).children().length > 0) {
+    if ($(ulElement).children().length > 0) {
         return;
     }
 
