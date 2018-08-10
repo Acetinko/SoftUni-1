@@ -11,24 +11,44 @@ $('#login').on('click', function (ev) {
     if (isLogin) {
         isLogin = false;
         ev.target.innerText = 'Set Username';
+        let container = ev.target.parentNode.parentNode;
 
         $(ev.target).removeClass('pl-4');
         $(ev.target).removeClass('pr-4');
         $(ev.target).addClass('pl-2');
         $(ev.target).addClass('pr-2');
 
+        let input = container.children[0].children[0];
+        $(input).removeClass('d-none');
+        $(input).addClass('d-block');
+
+        let h3 = container.children[0].children[1];
+        $(h3).removeClass('d-block');
+        $(h3).addClass('d-none');
+        $(h3).text('');
+
         usernameElement.val('');
         username = '';
     } else {
         isLogin = true;
+        username = usernameElement.val();
+        let container = ev.target.parentNode.parentNode;
         ev.target.innerText = 'Logout';
 
         $(ev.target).removeClass('pl-2');
         $(ev.target).removeClass('pr-2');
         $(ev.target).addClass('pl-4');
+
         $(ev.target).addClass('pr-4');
 
-        username = usernameElement.val();
+        let input = container.children[0].children[0];
+        $(input).removeClass('d-block');
+        $(input).addClass('d-none');
+
+        let h3 = container.children[0].children[1];
+        $(h3).removeClass('d-none');
+        $(h3).addClass('d-block');
+        $(h3).text(username);
     }
 });
 
