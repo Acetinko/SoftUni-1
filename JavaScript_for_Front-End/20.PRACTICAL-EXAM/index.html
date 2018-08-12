@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+    <!--JQUERY JS-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<h1 class="h1 text-danger text-center">Modify me</h1>
+<hr class="bg-danger" style="height: 2px">
+<h2 class="h2 text-danger text-center">Personal Info</h2>
+
+<div class="row justify-content-center mt-3 personalInfo">
+    <div class="form-group col-2 text-center font-weight-bold">
+        <label for="firstName" class="text-danger">First Name</label>
+        <input type="text" class="form-control text-center d-none" id="firstName">
+        <h4 class="h4 d-block" id="firstNameView"></h4>
+    </div>
+    <div class="col-3"></div>
+    <div class="form-group col-2 text-center font-weight-bold">
+        <label for="lastName" class="text-danger">Last Name</label>
+        <input type="text" class="form-control text-center d-none" id="lastName">
+        <h4 class="h4 d-block" id="lastNameView"></h4>
+    </div>
+</div>
+<div class="row justify-content-center mt-3 personalInfo">
+    <div class="form-group col-2 text-center font-weight-bold">
+        <label for="phoneNumber" class="text-danger">Phone Number</label>
+        <input type="text" class="form-control text-center d-none" id="phoneNumber">
+        <h4 class="h4 d-block" id="phoneNumberView"></h4>
+    </div>
+    <div class="col-3"></div>
+    <div class="form-group col-2 text-center font-weight-bold">
+        <label for="ucl" class="text-danger">UCL</label>
+        <input type="number" class="form-control text-center d-none" id="ucl">
+        <h4 class="h4 d-block" id="uclView"></h4>
+    </div>
+</div>
+
+<hr class="bg-danger" style="height: 2px">
+<h2 class="h2 text-danger text-center">Team and Position</h2>
+
+<div class="row justify-content-center mt-3" id="check">
+    <div class="form-check form-check-inline col-1">
+        <input class="form-check-input" type="radio" name="blankRadio" id="support" value="support">
+        <label class="form-check-label" for="support">Support</label>
+    </div>
+    <div class="col-1"></div>
+    <div class="form-check form-check-inline col-1">
+        <input class="form-check-input" type="radio" name="blankRadio" id="crm" value="crm">
+        <label class="form-check-label" for="crm">CRM</label>
+    </div>
+    <div class="col-1"></div>
+    <div class="form-check form-check-inline col-1">
+        <input class="form-check-input" type="radio" name="blankRadio" id="marketing" value="marketing">
+        <label class="form-check-label" for="marketing">Marketing</label>
+    </div>
+    <div class="col-1"></div>
+    <div class="form-check form-check-inline col-1">
+        <input class="form-check-input" type="radio" name="blankRadio" id="development" value="development">
+        <label class="form-check-label" for="development">Development</label>
+    </div>
+    <div class="col-1"></div>
+    <div class="form-check form-check-inline col-1">
+        <input class="form-check-input" type="radio" name="blankRadio" id="other" value="other" checked>
+        <label class="form-check-label" for="other">Other</label>
+    </div>
+</div>
+<div class="col-5 m-auto">
+    <hr class="bg-danger my-4" style="height: 2px">
+</div>
+<div class="row justify-content-center mt-3">
+    <div class="form-check form-check-inline col-2">
+        <input class="form-check-input" type="radio" name="blankChildRadio" id="viewRadio1" value="viewRadio1">
+        <label class="form-check-label" for="viewRadio1" id="viewRadioView1"></label>
+    </div>
+    <div class="col-1"></div>
+    <div class="form-check form-check-inline col-2">
+        <input class="form-check-input" type="radio" name="blankChildRadio" id="viewRadio2" value="viewRadio2">
+        <label class="form-check-label" for="viewRadio2" id="viewRadioView2"></label>
+    </div>
+    <div class="col-1"></div>
+    <div class="form-check form-check-inline col-2">
+        <input class="form-check-input" type="radio" name="blankChildRadio" id="viewRadio3" value="viewRadio3">
+        <label class="form-check-label" for="viewRadio3" id="viewRadioView3"></label>
+    </div>
+</div>
+<hr class="bg-danger my-4" style="height: 2px">
+
+<div class="row justify-content-center mt-4">
+    <div class="col-1">
+        <button type="button" class="btn btn-danger" id="sbm">Submit</button>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-1">
+        <button type="button" class="btn btn-danger" id="reset">Reset</button>
+    </div>
+</div>
+
+<!--Bootstrap JS-->
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--Custom JS-->
+<script src="js/app.js"></script>
+</body>
+</html>
